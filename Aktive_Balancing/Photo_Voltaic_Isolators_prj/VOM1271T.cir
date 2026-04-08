@@ -1,0 +1,57 @@
+* VOM1271T PV MOSFET Driver with built-in turn-off SPICE MODEL
+*							LED ANODE
+*							| LED Kathode
+*							| |- Current output
+*							| |  | 	  + Current output
+*							| |  | 	  |
+
+.SUBCKT VOM1271T            A K -out +out
+XU1 A K 0 N001 VO1263
+XU2 +out N001 +out 0 I-FAST_TOFF
+
+.SUBCKT	I-FAST_TOFF	Iin	Iout NC2 NC1
+V1 Iin Iout 0
+W1 NC1 NC2 V1 W1
+.model W1 CSW(Ron=100K Roff=10Meg IT=1uA)
+.ENDS
+
+.SUBCKT VO1263		A K -Iout +Iout
+XU1 A K N001 K IRLED1
+XU2 N001 K -Iout +Iout GAIN-MOD
+R1 -Iout +Iout 1Meg
+* Zout of driver
+.ENDS
+
+
+.SUBCKT IRLED1				1 2 3 4
+F1 4 3 V1 1
+V1 5 2 0
+D1 1 5 D1
+.model D1 D(IS=1P N=1.948621 RS=1.560495 BV=6 IBV=10U CJO=18.8P VJ=0.532794 M=0.27985 EG=1.424 TT=500N)
+.ends
+
+.SUBCKT GAIN-MOD        +Iin -Iin -Iout +Iout
+F1 -Iout +Iout V1 0.001
+*current gain of driver
+V1 +Iin -Iin 0
+.backanno
+.ends
+**==================================================================*
+* Note:
+* Although models can be a useful tool in evaluating device performance,
+* they cannot model exact device performance under all conditions, nor
+* are they intended to replace breadboarding for final verification.
+* Models provided by VISHAY Semiconductors GmbH (“Vishay”) do not represent
+* all of the specifications and operating characteristics of the product to
+* which the model relates. The models attempt to describe the characteristics
+* of typical products. The current data sheet information for a given
+* product represents the final design guideline and includes actual
+* performance specifications. The accuracy, reliability and compatibility
+* of models provided by Vishay are not guaranteed or warranted in any way
+* and Vishay disclaims liability of any kind whatsoever, including, without
+* limitation, liability for quality, performance, merchantability and fitness
+* for a particular purpose arising out of the use, or inability to use a model.
+* Vishay reserves the right to change models without prior notice.
+* The products described herein, including the model and any results produced
+* using the model, are subject to the specific disclaimers set forth at www.vishay.com/doc?91000.
+**===================================================================

@@ -1,0 +1,63 @@
+Version 4
+SymbolType CELL
+LINE Normal -96 -64 -56 -64
+LINE Normal -56 -22 -56 -64
+LINE Normal -56 6 -56 48
+LINE Normal -96 48 -56 48
+LINE Normal -78 -22 -35 -22
+LINE Normal -56 6 -35 -22
+LINE Normal -56 6 -78 -22
+LINE Normal -78 6 -35 6
+LINE Normal 144 48 104 48
+LINE Normal 104 -64 104 -64
+LINE Normal 144 -64 104 -64
+LINE Normal 7 -26 -28 -43
+LINE Normal -15 -28 7 -26
+LINE Normal 23 -9 -15 -28
+LINE Normal 16 -17 23 -9
+LINE Normal 23 -9 16 -17
+LINE Normal 12 -11 23 -9
+LINE Normal 7 -8 -28 -25
+LINE Normal -15 -10 7 -8
+LINE Normal 23 9 -15 -10
+LINE Normal 16 1 23 9
+LINE Normal 23 9 16 1
+LINE Normal 12 7 23 9
+LINE Normal 26 -48 69 -48
+LINE Normal 48 -20 69 -48
+LINE Normal 48 -20 26 -48
+LINE Normal 26 -20 69 -20
+LINE Normal 26 15 69 15
+LINE Normal 48 43 69 15
+LINE Normal 48 43 26 15
+LINE Normal 26 43 69 43
+LINE Normal 48 48 48 43
+LINE Normal 104 48 48 48
+LINE Normal 48 -64 48 -48
+LINE Normal 104 -64 48 -64
+LINE Normal 48 -20 48 15 4
+LINE Normal 104 16 104 48
+LINE Normal 104 -64 104 -32
+RECTANGLE Normal 144 64 -96 -80
+RECTANGLE Normal 125 -32 83 16
+TEXT 89 -17 Left 2 Turn
+TEXT 93 2 Left 2 Off
+WINDOW 3 25 70 Top 2
+WINDOW 0 7 -85 Bottom 2
+SYMATTR Value VOM1271
+SYMATTR Prefix X
+SYMATTR ModelFile VOM1271.cir
+SYMATTR Description Photvoltaic Isolator
+SYMATTR SpiceModel VOM1271
+PIN -96 -64 TOP 5
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN -96 48 BOTTOM 5
+PINATTR PinName K
+PINATTR SpiceOrder 2
+PIN 144 -64 TOP 5
+PINATTR PinName P
+PINATTR SpiceOrder 3
+PIN 144 48 BOTTOM 5
+PINATTR PinName N
+PINATTR SpiceOrder 4

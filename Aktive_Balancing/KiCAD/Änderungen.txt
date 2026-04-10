@@ -1,0 +1,8 @@
+- 12V Schaltspannung gehen direkt auf STM
+- Steckerbelegung nicht wie BMG (unten schütz, oben aux, & rechts/links vertauscht)
+- Gehört an J6 Pin 3 noch GND (wie bei den anderen)?
+- OP ggf gegen einen günstigeren tauschen
+- OP scheint bei Verstärkung <= 1 zu schwingen
+- um AUX-Kontakte korrekt zu emulieren, müssten diese direkt kurzgeschlossen werden (statt 3.3V anzulegen)
+
+- OK ISO1050 keine 5V

@@ -1,0 +1,6 @@
+../Core/Src/MCP4725.c:10:19:MCP4725_Initialize	24	static
+../Core/Src/MCP4725.c:22:19:MCP4725_SetMode	16	static
+../Core/Src/MCP4725.c:28:19:MCP4725_SetVoltage	16	static
+../Core/Src/MCP4725.c:34:19:MCP4725_GetDataFromChip	24	static
+../Core/Src/MCP4725.c:50:19:MCP4725_ReadData	32	static
+../Core/Src/MCP4725.c:54:19:MCP4725_WriteData	32	static

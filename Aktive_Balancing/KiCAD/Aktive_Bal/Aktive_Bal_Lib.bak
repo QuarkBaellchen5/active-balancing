@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:EC1SA16N"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -195,7 +195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:SCW20C-12"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -10664,16 +10664,6 @@
 		)
 		(uuid "0fb5e3e4-def0-41d2-9e83-99c51bf243ab")
 	)
-	(text "Tantal\n"
-		(exclude_from_sim no)
-		(at 214.122 26.924 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "21417954-1afa-4b6f-8517-b4c9a0b2454c")
-	)
 	(text "Keramik"
 		(exclude_from_sim no)
 		(at 97.028 68.834 0)
@@ -10765,16 +10755,6 @@
 			)
 		)
 		(uuid "9b5d4eb7-de95-4fb9-b151-b4272ccbc72c")
-	)
-	(text "Tantal\n"
-		(exclude_from_sim no)
-		(at 188.468 27.432 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b6151d7a-61f7-4976-a7fe-f92ea00b57a7")
 	)
 	(text "invertierte Logik!\n"
 		(exclude_from_sim no)
@@ -10891,12 +10871,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05029df1-7d4b-4383-b19e-7e3c23d2291f")
-	)
-	(junction
-		(at 50.8 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0819f564-753b-4356-b752-007768c88425")
 	)
 	(junction
 		(at 309.88 160.02)
@@ -11197,6 +11171,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "709d162d-91f1-47bb-8c92-6412d1fdc3ed")
+	)
+	(junction
+		(at 50.8 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71c9a5c3-f4b3-4359-b409-809a46220c06")
 	)
 	(junction
 		(at 215.9 205.74)
@@ -12209,6 +12189,16 @@
 			(type default)
 		)
 		(uuid "20e70d08-9913-4b49-a978-2ed413158b67")
+	)
+	(wire
+		(pts
+			(xy 50.8 29.21) (xy 59.69 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210eed0d-e0e2-468b-b301-8caef07e50d5")
 	)
 	(wire
 		(pts
@@ -13232,16 +13222,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 29.21) (xy 50.8 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "679b2bab-cbf8-41b0-92e1-dfca6eaf7f49")
-	)
-	(wire
-		(pts
 			(xy 167.64 26.67) (xy 167.64 29.21)
 		)
 		(stroke
@@ -14049,6 +14029,16 @@
 			(type default)
 		)
 		(uuid "9007f2c9-24e2-4be9-8b2f-38c59d07be9f")
+	)
+	(wire
+		(pts
+			(xy 50.8 29.21) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901a77d4-1b58-48a1-aab1-5ac74acd6ad7")
 	)
 	(wire
 		(pts
@@ -15999,16 +15989,6 @@
 			(type default)
 		)
 		(uuid "fd60bbf4-26ff-4f0a-b316-11f0c1c9e37d")
-	)
-	(wire
-		(pts
-			(xy 50.8 29.21) (xy 59.69 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd9548c7-27fd-4e9c-bfbc-362d387b8505")
 	)
 	(wire
 		(pts
@@ -18877,7 +18857,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 97.79 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18958,7 +18938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1µ"
 			(at 91.694 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19334,7 +19314,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19570,7 +19550,7 @@
 				)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "0.1n"
 			(at 123.444 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20567,7 +20547,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21126,7 +21106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 153.67 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21208,7 +21188,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 46.99 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22044,7 +22024,7 @@
 				)
 			)
 		)
-		(property "Value" "1000p"
+		(property "Value" "1n"
 			(at 114.3 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22462,7 +22442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1µ"
 			(at 42.164 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22702,7 +22682,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23227,7 +23207,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23450,7 +23430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 110.49 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -23726,7 +23706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.39 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -23806,7 +23786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 64.77 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -24074,7 +24054,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25767,7 +25747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 91.44 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -25964,7 +25944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ"
+		(property "Value" "1µ"
 			(at 172.72 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25975,7 +25955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.18 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -26712,7 +26692,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27084,7 +27064,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27911,7 +27891,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28505,7 +28485,7 @@
 				)
 			)
 		)
-		(property "Value" "1000p"
+		(property "Value" "1n"
 			(at 113.03 12.192 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29798,7 +29778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µ"
+		(property "Value" "1µ"
 			(at 171.958 22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29809,7 +29789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.18 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -29964,7 +29944,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 33.782 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30045,7 +30025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 106.426 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30288,7 +30268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "4.7µ"
 			(at 138.43 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30299,7 +30279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 135.89 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -30533,7 +30513,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31365,7 +31345,7 @@
 				)
 			)
 		)
-		(property "Value" "48µ"
+		(property "Value" "47µ"
 			(at 210.82 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31522,7 +31502,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31761,7 +31741,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32227,7 +32207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 57.15 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -32343,7 +32323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 119.38 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -33663,7 +33643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 42.672 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -33982,7 +33962,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34145,7 +34125,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34226,7 +34206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ"
+		(property "Value" "10µ tantal"
 			(at 186.69 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34237,7 +34217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 184.15 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -34385,7 +34365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µ"
+		(property "Value" "100n"
 			(at 55.88 134.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34703,7 +34683,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34784,7 +34764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ"
+		(property "Value" "10µ tantal"
 			(at 212.09 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34795,7 +34775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 209.55 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -35156,7 +35136,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35394,7 +35374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 162.56 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36394,7 +36374,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "390"
 			(at 284.48 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36486,7 +36466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.8 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -37452,7 +37432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 48.26 176.022 90)
 			(hide yes)
 			(show_name no)

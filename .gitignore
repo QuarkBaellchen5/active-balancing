@@ -2,3 +2,21 @@
 *.log
 *.op.raw
 *.net
+
+# Backups
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+
+# Autosave
+_autosave-*
+
+# Fertigungsoutputs (optional, manche taggen die lieber per Release)
+/gerbers/
+/production/
+*.zip
+
+# Caches
+fp-info-cache

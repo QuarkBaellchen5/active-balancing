@@ -10845,12 +10845,6 @@
 		(uuid "2a2f3635-e1bb-4a79-8dc0-50cc7e644888")
 	)
 	(junction
-		(at 119.38 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bb441ad-27f6-4b06-85de-1db3af60b355")
-	)
-	(junction
 		(at 44.45 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10939,6 +10933,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fee9ec1-7d80-4c59-8f76-451385cc1371")
+	)
+	(junction
+		(at 119.38 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "400fe094-d4a2-472c-86e3-fa699fce638c")
 	)
 	(junction
 		(at 355.6 148.59)
@@ -15542,16 +15542,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 218.44) (xy 123.19 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a54eb419-b606-458f-9c9f-7b0bc279ec95")
-	)
-	(wire
-		(pts
 			(xy 109.22 193.04) (xy 121.92 193.04)
 		)
 		(stroke
@@ -15649,6 +15639,16 @@
 			(type default)
 		)
 		(uuid "aa28dfae-9979-4499-a1ca-71c7ff74402d")
+	)
+	(wire
+		(pts
+			(xy 119.38 218.44) (xy 123.19 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5d8974-6033-420e-930b-bcdc730d2976")
 	)
 	(wire
 		(pts
@@ -16052,6 +16052,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 210.82) (xy 119.38 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f60411-7bee-4416-9e03-52ea635fd058")
+	)
+	(wire
+		(pts
 			(xy 337.82 168.91) (xy 341.63 168.91)
 		)
 		(stroke
@@ -16219,16 +16229,6 @@
 			(type default)
 		)
 		(uuid "c28e2ad7-fe37-4617-97d6-fe7ec73add51")
-	)
-	(wire
-		(pts
-			(xy 119.38 210.82) (xy 119.38 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31e2f44-b7ae-45fa-9ad1-1bd540fbed3b")
 	)
 	(wire
 		(pts
@@ -20340,7 +20340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 202.438 90)
 			(hide yes)
 			(show_name no)
@@ -20419,7 +20419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 201.168 90)
 			(hide yes)
 			(show_name no)
@@ -20498,7 +20498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 137.668 90)
 			(hide yes)
 			(show_name no)
@@ -20658,7 +20658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:CMP-R100-1.0"
 			(at 236.982 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -20746,7 +20746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 97.028 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -20827,7 +20827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.9 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -20907,7 +20907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -20986,7 +20986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO-220AB_ONS"
+		(property "Footprint" ""
 			(at 15.24 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -21073,7 +21073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -21282,7 +21282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -21518,7 +21518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 125.73 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -21600,7 +21600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 96.012 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -21758,7 +21758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DB24"
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
 			(at 171.45 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -21906,7 +21906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 140.208 90)
 			(hide yes)
 			(show_name no)
@@ -22384,7 +22384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -22515,7 +22515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 151.638 90)
 			(hide yes)
 			(show_name no)
@@ -22597,7 +22597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -22730,7 +22730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22863,7 +22863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23075,7 +23075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 149.352 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -23157,7 +23157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.228 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -23393,7 +23393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 161.798 90)
 			(hide yes)
 			(show_name no)
@@ -23472,7 +23472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -23551,7 +23551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 226.568 90)
 			(hide yes)
 			(show_name no)
@@ -23785,7 +23785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 179.07 175.5648 0)
 			(hide yes)
 			(show_name no)
@@ -23867,7 +23867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -23997,7 +23997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 188.468 90)
 			(hide yes)
 			(show_name no)
@@ -24179,7 +24179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -24309,7 +24309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 114.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -24489,7 +24489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.73 194.818 90)
 			(hide yes)
 			(show_name no)
@@ -24569,7 +24569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 172.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -24728,7 +24728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 48.26 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -24887,7 +24887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 135.382 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -24967,7 +24967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 141.478 90)
 			(hide yes)
 			(show_name no)
@@ -25283,7 +25283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -25492,7 +25492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -25574,7 +25574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -25899,7 +25899,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -25979,7 +25979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -26334,7 +26334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -26416,7 +26416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 151.638 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -26496,7 +26496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -26578,7 +26578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -26866,7 +26866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 50.038 90)
 			(hide yes)
 			(show_name no)
@@ -26948,7 +26948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -27078,7 +27078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -27471,7 +27471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -27680,7 +27680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 150.368 90)
 			(hide yes)
 			(show_name no)
@@ -28007,7 +28007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.35 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -28548,7 +28548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -28759,7 +28759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 54.102 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -28839,7 +28839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -28921,7 +28921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -29052,7 +29052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -29213,7 +29213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 191.008 90)
 			(hide yes)
 			(show_name no)
@@ -29293,7 +29293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -29373,7 +29373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -29531,7 +29531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -29611,7 +29611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 29.718 90)
 			(hide yes)
 			(show_name no)
@@ -29691,7 +29691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -29773,7 +29773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -29904,7 +29904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 131.318 90)
 			(hide yes)
 			(show_name no)
@@ -29984,7 +29984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -30153,7 +30153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 212.598 90)
 			(hide yes)
 			(show_name no)
@@ -30233,7 +30233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 60.198 90)
 			(hide yes)
 			(show_name no)
@@ -30393,7 +30393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -30760,7 +30760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -30891,7 +30891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 202.438 90)
 			(hide yes)
 			(show_name no)
@@ -30970,7 +30970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 48.768 90)
 			(hide yes)
 			(show_name no)
@@ -31050,7 +31050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.74 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -31409,7 +31409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A-DF_09_A_KG-T4S:ASSMANN_A-DF_09_A_KG-T4S"
+		(property "Footprint" "Aktive_Bal_Footprints:ASSMANN_A-DF_09_A_KG-T4S"
 			(at 26.67 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -31641,7 +31641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.03 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -31798,7 +31798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 151.638 90)
 			(hide yes)
 			(show_name no)
@@ -31878,7 +31878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -31960,7 +31960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -32171,7 +32171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -32461,7 +32461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -32750,7 +32750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -32883,7 +32883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -33014,7 +33014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -33174,7 +33174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:common mode choke foot"
 			(at 64.77 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -33261,7 +33261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 41.148 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -33342,7 +33342,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 105.918 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -33748,7 +33748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 200.025 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -33828,7 +33828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -33908,7 +33908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 212.598 90)
 			(hide yes)
 			(show_name no)
@@ -33990,7 +33990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -34120,7 +34120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 213.868 90)
 			(hide yes)
 			(show_name no)
@@ -34280,7 +34280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -34739,7 +34739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 178.562 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -34976,7 +34976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 161.798 90)
 			(hide yes)
 			(show_name no)
@@ -35055,7 +35055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.77 191.008 90)
 			(hide yes)
 			(show_name no)
@@ -35215,7 +35215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -35297,7 +35297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 96.012 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -35376,7 +35376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -35455,7 +35455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.52 188.2648 0)
 			(hide yes)
 			(show_name no)
@@ -35535,7 +35535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.53 191.008 90)
 			(hide yes)
 			(show_name no)
@@ -35617,7 +35617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -35981,7 +35981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 175.768 90)
 			(hide yes)
 			(show_name no)
@@ -36139,7 +36139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -36218,7 +36218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 36.068 90)
 			(hide yes)
 			(show_name no)
@@ -36376,7 +36376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 175.26 168.402 90)
 			(hide yes)
 			(show_name no)
@@ -36455,7 +36455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 163.068 90)
 			(hide yes)
 			(show_name no)
@@ -36735,7 +36735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 211.328 90)
 			(hide yes)
 			(show_name no)
@@ -36815,7 +36815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 160.528 90)
 			(hide yes)
 			(show_name no)
@@ -37133,7 +37133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -37264,7 +37264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -37753,7 +37753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -37916,7 +37916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -38157,7 +38157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 53.34 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -38237,7 +38237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 127 220.218 90)
 			(hide yes)
 			(show_name no)
@@ -38473,7 +38473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -38553,7 +38553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 141.478 90)
 			(hide yes)
 			(show_name no)
@@ -38633,7 +38633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -38873,7 +38873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 201.168 90)
 			(hide yes)
 			(show_name no)
@@ -38955,7 +38955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -39086,7 +39086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 41.148 90)
 			(hide yes)
 			(show_name no)
@@ -39325,7 +39325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 158.242 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -39404,7 +39404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -39484,7 +39484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 180.848 90)
 			(hide yes)
 			(show_name no)
@@ -39564,7 +39564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -39646,7 +39646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -39777,7 +39777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 313.69 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -39859,7 +39859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 256.54 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -40245,7 +40245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.38 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -40324,7 +40324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 150.368 90)
 			(hide yes)
 			(show_name no)
@@ -40482,7 +40482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 284.48 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -40878,7 +40878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -41089,7 +41089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -41219,7 +41219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 326.39 41.148 90)
 			(hide yes)
 			(show_name no)
@@ -41691,7 +41691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
 			(at 358.14 26.67 0)
 			(hide yes)
 			(show_name no)

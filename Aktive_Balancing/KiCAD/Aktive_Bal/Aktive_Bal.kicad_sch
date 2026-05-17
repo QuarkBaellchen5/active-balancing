@@ -21986,7 +21986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal"
 			(at 24.13 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -33502,7 +33502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
 			(at 166.37 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -33748,7 +33748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 200.025 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -40163,7 +40163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
 			(at 216.8652 218.44 0)
 			(hide yes)
 			(show_name no)

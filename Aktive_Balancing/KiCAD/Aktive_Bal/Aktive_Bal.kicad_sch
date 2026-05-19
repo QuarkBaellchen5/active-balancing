@@ -10779,6 +10779,18 @@
 		(uuid "09f8da85-b916-4383-96e4-537a9cb91d2e")
 	)
 	(junction
+		(at 176.53 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af22bbb-4edd-4343-bd35-64284697e21f")
+	)
+	(junction
+		(at 167.64 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14091c75-7ec5-4215-9124-3beb71882824")
+	)
+	(junction
 		(at 318.77 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10807,12 +10819,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b961fb-a515-47fe-a846-78a5ce89a186")
-	)
-	(junction
-		(at 184.15 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21f690f3-54d1-4851-a682-d44edadfaaf5")
 	)
 	(junction
 		(at 118.11 66.04)
@@ -10897,6 +10903,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "358dea05-6baf-4505-98a8-c00b5ab92d9f")
+	)
+	(junction
+		(at 218.44 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f1545c-4929-4116-b892-20910c8041b8")
 	)
 	(junction
 		(at 318.77 77.47)
@@ -11029,6 +11041,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f4fe89d-f36b-4d4d-a502-b9c84a25853f")
+	)
+	(junction
+		(at 189.23 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "550c44fe-b61e-49eb-8c26-9f1f9aa0a964")
 	)
 	(junction
 		(at 238.76 213.36)
@@ -11203,6 +11221,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80c2b54c-4c8b-442b-9069-a9938b6c5dbc")
+	)
+	(junction
+		(at 226.06 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81b6a9f1-41f8-438b-9911-4351d2b90da5")
 	)
 	(junction
 		(at 170.18 24.13)
@@ -11629,12 +11653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c86dbb-2b30-4df6-a330-b5ad59cea3b9")
-	)
-	(junction
-		(at 209.55 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f68c1b8b-5c18-4050-b4ef-2358a879562b")
 	)
 	(junction
 		(at 238.76 86.36)
@@ -12262,7 +12280,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 21.59) (xy 184.15 21.59)
+			(xy 181.61 21.59) (xy 189.23 21.59)
 		)
 		(stroke
 			(width 0)
@@ -13049,6 +13067,16 @@
 			(type default)
 		)
 		(uuid "3a9e63a4-8b78-4a77-9fe8-0a53030f724d")
+	)
+	(wire
+		(pts
+			(xy 189.23 21.59) (xy 201.93 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1bef70-ab7d-4c42-9205-cc17ba4e69a4")
 	)
 	(wire
 		(pts
@@ -13952,7 +13980,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 21.59) (xy 214.63 21.59)
+			(xy 218.44 21.59) (xy 226.06 21.59)
 		)
 		(stroke
 			(width 0)
@@ -15492,7 +15520,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 29.21) (xy 181.61 29.21)
+			(xy 170.18 29.21) (xy 176.53 29.21)
 		)
 		(stroke
 			(width 0)
@@ -15729,6 +15757,16 @@
 			(type default)
 		)
 		(uuid "ae9f4413-78f8-4e9e-9ac6-e673997bc26e")
+	)
+	(wire
+		(pts
+			(xy 176.53 29.21) (xy 181.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef52bd1-4918-451c-b726-2c7d05f7baee")
 	)
 	(wire
 		(pts
@@ -17382,16 +17420,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 21.59) (xy 193.04 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0bf4c4d-a7c1-421c-93d4-0aa56ae26fe8")
-	)
-	(wire
-		(pts
 			(xy 160.02 45.72) (xy 160.02 64.77)
 		)
 		(stroke
@@ -17482,7 +17510,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 21.59) (xy 209.55 21.59)
+			(xy 217.17 21.59) (xy 218.44 21.59)
 		)
 		(stroke
 			(width 0)
@@ -17937,7 +17965,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 194 0 194 1)
 			)
 			(justify left)
 		)
@@ -19354,7 +19381,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 194 0 194 1)
 			)
 			(justify right)
 		)
@@ -20986,7 +21012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:TO-220AB_ONS"
 			(at 15.24 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -22035,6 +22061,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 176.53 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18fd122b-c1ba-4ba4-9b3e-8203c643099b")
+		(property "Reference" "J7"
+			(at 177.8 32.3849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 177.8 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 176.53 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9aa96070-a0f7-41ff-8f72-3d57963c596c")
+		)
+		(instances
+			(project "Aktive_Bal"
+				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 199.39 130.81 90)
 		(unit 1)
@@ -22302,7 +22406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 187.96 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -23601,7 +23705,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 214.63 21.59 0)
+		(at 226.06 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23612,7 +23716,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c1d5ecb-a77d-4374-9c25-1a1fd9b7a42f")
 		(property "Reference" "#PWR018"
-			(at 214.63 25.4 0)
+			(at 226.06 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23623,7 +23727,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 214.63 16.51 0)
+			(at 226.06 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23633,7 +23737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 21.59 0)
+			(at 226.06 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23644,7 +23748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 21.59 0)
+			(at 226.06 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23655,7 +23759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 214.63 21.59 0)
+			(at 226.06 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25384,7 +25488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 29.21 0)
+		(at 209.55 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25394,7 +25498,7 @@
 		(dnp no)
 		(uuid "3e072bcf-c79c-464a-b265-55cf2c039baf")
 		(property "Reference" "#PWR017"
-			(at 200.66 35.56 0)
+			(at 209.55 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25405,7 +25509,7 @@
 			)
 		)
 		(property "Value" "GND_float2"
-			(at 201.676 31.496 90)
+			(at 210.566 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25416,7 +25520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 29.21 0)
+			(at 209.55 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25427,7 +25531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 29.21 0)
+			(at 209.55 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25438,7 +25542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 29.21 0)
+			(at 209.55 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26028,6 +26132,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 231.14 21.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4363bd25-9ac8-4d5d-8bc8-94464ba7c5bc")
+		(property "Reference" "J9"
+			(at 245.11 21.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 245.11 19.1769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 231.14 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 231.14 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1f1c27e-693a-416a-8dab-559c8d656c48")
+		)
+		(instances
+			(project "Aktive_Bal"
+				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 78.74 26.67 0)
 		(unit 1)
@@ -26258,7 +26440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 87.63 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -28087,7 +28269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTV-847S:SOIC254P1016X460-16N"
+		(property "Footprint" "Aktive_Bal_Footprints:SOIC254P1016X460-16N"
 			(at 298.45 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -28445,7 +28627,7 @@
 		(dnp no)
 		(uuid "65fe1a8e-d172-41bc-89ae-e383d090c389")
 		(property "Reference" "C19"
-			(at 172.72 25.654 0)
+			(at 172.466 25.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28456,7 +28638,7 @@
 			)
 		)
 		(property "Value" "1µ"
-			(at 172.72 28.194 0)
+			(at 172.72 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29133,7 +29315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -31565,7 +31747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 135.89 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -32640,7 +32822,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 26.67 0)
+		(at 218.44 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32650,7 +32832,7 @@
 		(dnp no)
 		(uuid "93a74dd3-83ad-4bbf-a0b8-22420a4b4901")
 		(property "Reference" "#PWR028"
-			(at 209.55 33.02 0)
+			(at 218.44 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32661,7 +32843,7 @@
 			)
 		)
 		(property "Value" "GND_float2"
-			(at 210.566 28.956 90)
+			(at 219.456 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32672,7 +32854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 26.67 0)
+			(at 218.44 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32683,7 +32865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 26.67 0)
+			(at 218.44 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32694,7 +32876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 26.67 0)
+			(at 218.44 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33074,7 +33256,7 @@
 		(dnp no)
 		(uuid "98d8e51f-8be4-4745-8ea8-a87bf9083930")
 		(property "Reference" "C18"
-			(at 171.958 20.066 0)
+			(at 172.212 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33423,7 +33605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 87.63 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -33666,7 +33848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 44.45 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -34488,7 +34670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTV-847S:SOIC254P1016X460-16N"
+		(property "Footprint" "Aktive_Bal_Footprints:SOIC254P1016X460-16N"
 			(at 298.45 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -34706,6 +34888,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 167.64 13.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a847d8c7-d600-4937-97a5-0525ae6f01b5")
+		(property "Reference" "J8"
+			(at 164.338 15.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 153.162 12.954 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 167.64 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 167.64 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c83d3dd-ec22-4676-a0a0-abc0afa61392")
+		)
+		(instances
+			(project "Aktive_Bal"
+				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 180.34 48.26 0)
 		(unit 1)
@@ -34819,7 +35079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
 			(at 210.82 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -35135,7 +35395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 148.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -36895,7 +37155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -36945,7 +37205,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 26.67 0)
+		(at 189.23 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36955,7 +37215,7 @@
 		(dnp no)
 		(uuid "bc4ada04-a40f-4d59-88ca-c9de0742b3b1")
 		(property "Reference" "#PWR027"
-			(at 184.15 33.02 0)
+			(at 189.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36966,7 +37226,7 @@
 			)
 		)
 		(property "Value" "GND_float2"
-			(at 185.166 28.956 90)
+			(at 198.628 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36977,7 +37237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 26.67 0)
+			(at 189.23 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36988,7 +37248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 26.67 0)
+			(at 189.23 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36999,7 +37259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 26.67 0)
+			(at 189.23 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37582,7 +37842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTV-847S:SOIC254P1016X460-16N"
+		(property "Footprint" "Aktive_Bal_Footprints:SOIC254P1016X460-16N"
 			(at 298.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -37803,7 +38063,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM1117MP-3.3")
-		(at 200.66 21.59 0)
+		(at 209.55 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37814,7 +38074,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8e7b8b4-8dbd-4449-8d8f-2c63c54de4e2")
 		(property "Reference" "U7"
-			(at 200.66 15.24 0)
+			(at 209.55 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37824,7 +38084,7 @@
 			)
 		)
 		(property "Value" "LM1117IMPX_3_3_NOPB"
-			(at 200.66 17.78 0)
+			(at 209.55 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37834,7 +38094,7 @@
 			)
 		)
 		(property "Footprint" "Aktive_Bal_Footprints:LM1117IMPX-3.3NOPB-DCY0004A_M"
-			(at 200.66 21.59 0)
+			(at 209.55 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37845,7 +38105,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 200.66 21.59 0)
+			(at 209.55 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37856,7 +38116,7 @@
 			)
 		)
 		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
-			(at 200.66 21.59 0)
+			(at 209.55 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37966,7 +38226,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 184.15 24.13 0)
+		(at 189.23 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37977,7 +38237,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd929793-65ce-462f-a4c6-629e6b2952b9")
 		(property "Reference" "C7"
-			(at 186.69 22.8662 0)
+			(at 191.77 22.8662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37988,7 +38248,7 @@
 			)
 		)
 		(property "Value" "10µ tantal"
-			(at 186.69 25.4062 0)
+			(at 191.77 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37999,7 +38259,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 184.15 24.13 0)
+			(at 189.23 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38010,7 +38270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 24.13 0)
+			(at 189.23 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38021,7 +38281,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 184.15 24.13 0)
+			(at 189.23 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38683,7 +38943,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 209.55 24.13 0)
+		(at 218.44 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38694,7 +38954,7 @@
 		(fields_autoplaced yes)
 		(uuid "e01bf740-d0e0-4b58-b74d-9b15fb70ec60")
 		(property "Reference" "C8"
-			(at 212.09 22.8662 0)
+			(at 220.98 22.8662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38705,7 +38965,7 @@
 			)
 		)
 		(property "Value" "10µ tantal"
-			(at 212.09 25.4062 0)
+			(at 220.98 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38716,7 +38976,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 209.55 24.13 0)
+			(at 218.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38727,7 +38987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 24.13 0)
+			(at 218.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38738,7 +38998,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 24.13 0)
+			(at 218.44 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39990,7 +40250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTV-847S:SOIC254P1016X460-16N"
+		(property "Footprint" "Aktive_Bal_Footprints:SOIC254P1016X460-16N"
 			(at 298.45 198.12 0)
 			(hide yes)
 			(show_name no)

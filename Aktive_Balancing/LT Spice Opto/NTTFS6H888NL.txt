@@ -1,0 +1,14 @@
+* Generisches Verhaltensmodell fuer NTTFS6H888NL
+* Basiert auf Datenblattwerten: Vds=80V, Id=14A, Rds(on)=50mOhm @ Vgs=10V
+* Pins: D=Drain, G=Gate, S=Source
+.SUBCKT NTTFS6H888NL D G S
+M1 Dint Gint S S NMOS W=1 L=1
+Rds Dint D 50m
+Rg G Gint 1.5
+Cgs Gint S 440p
+Cgd Gint Dint 6.5p
+Cds Dint S 210p
+Dbody S D Dbody_ND
+.MODEL NMOS NMOS (VTO=1.8 KP=15 LEVEL=3)
+.MODEL Dbody_ND D (IS=1e-12 BV=80 IBV=250u)
+.ENDS

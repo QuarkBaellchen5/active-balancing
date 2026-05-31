@@ -686,13 +686,21 @@
         "uuid": "7c40c112-cd2b-4a48-9744-14a65613b3b5"
       }
     ],
-    "used_designators": "U13-14,J1,J7-9,#PWR33,#PWR35,#PWR57-58,#PWR62,#PWR64,#PWR70-81",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "7c40c112-cd2b-4a48-9744-14a65613b3b5",
       "Stammblatt"
+    ],
+    [
+      "45fa0e45-d26c-4c22-a735-03b29ef7d197",
+      "Leistungsmosfet"
+    ],
+    [
+      "7022d0de-596a-4fda-81a7-762d98787f96",
+      "Regelkreis"
     ]
   ],
   "text_variables": {},

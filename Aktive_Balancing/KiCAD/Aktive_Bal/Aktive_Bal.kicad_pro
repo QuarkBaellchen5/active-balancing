@@ -779,7 +779,7 @@
         "uuid": "7c40c112-cd2b-4a48-9744-14a65613b3b5"
       }
     ],
-    "used_designators": "U13,C17,C35-37",
+    "used_designators": "U13,C11,C13,C17,C35-38,L2-3,#PWR140,J1,J5-6,J22",
     "variants": []
   },
   "sheets": [

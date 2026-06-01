@@ -579,6 +579,12 @@
       "GND_float2": [
         "power"
       ],
+      "Net-(C2-Pad1)": [
+        "power"
+      ],
+      "Net-(C2-Pad2)": [
+        "power"
+      ],
       "Net-(D1-K)": [
         "power"
       ],
@@ -779,7 +785,7 @@
         "uuid": "7c40c112-cd2b-4a48-9744-14a65613b3b5"
       }
     ],
-    "used_designators": "U13,C11,C13,C17,C35-38,L2-3,#PWR140,J1,J5-6,J22",
+    "used_designators": "J7-8,J10-14",
     "variants": []
   },
   "sheets": [

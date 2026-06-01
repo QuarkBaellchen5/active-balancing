@@ -6980,16 +6980,16 @@
 		(uuid "301817cc-82c6-481c-9b99-619dfe784b6b")
 	)
 	(junction
+		(at 115.57 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30a87d42-6011-4121-a186-e17f115e6c3d")
+	)
+	(junction
 		(at 60.96 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "336b4d0d-33d9-448f-9acd-c400648384d0")
-	)
-	(junction
-		(at 104.14 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "358dea05-6baf-4505-98a8-c00b5ab92d9f")
 	)
 	(junction
 		(at 156.21 30.48)
@@ -7142,12 +7142,6 @@
 		(uuid "8559d2ae-87b4-494c-8aa3-be47f60f00cd")
 	)
 	(junction
-		(at 115.57 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8664349c-7536-40a0-bd3e-b6258138e51d")
-	)
-	(junction
 		(at 298.45 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7292,16 +7286,10 @@
 		(uuid "d7a329b3-037c-46ed-b7bb-c28910c48a08")
 	)
 	(junction
-		(at 114.3 33.02)
+		(at 115.57 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dade64c6-c8df-49cb-afbc-cb158f51fd36")
-	)
-	(junction
-		(at 104.14 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1862725-8cba-4c19-bf06-b542fa096754")
+		(uuid "de74a477-77c1-455b-9c7d-cf9ecd74798b")
 	)
 	(junction
 		(at 73.66 96.52)
@@ -7419,6 +7407,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 33.02) (xy 121.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc69381-c440-4c2d-92d2-cae1aaa83fe2")
+	)
+	(wire
+		(pts
 			(xy 49.53 96.52) (xy 73.66 96.52)
 		)
 		(stroke
@@ -7526,6 +7524,16 @@
 			(type default)
 		)
 		(uuid "1aaeeeb1-b839-4c99-a45d-e92b7f7fbb11")
+	)
+	(wire
+		(pts
+			(xy 115.57 38.1) (xy 121.92 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbc54fa-9be5-4cc5-888b-553cab59b40e")
 	)
 	(wire
 		(pts
@@ -7639,16 +7647,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 114.3 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf73ed9-64c5-477e-90b8-b6924fb3f643")
-	)
-	(wire
-		(pts
 			(xy 185.42 87.63) (xy 186.69 87.63)
 		)
 		(stroke
@@ -7659,7 +7657,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 104.14 33.02)
+			(xy 95.25 33.02) (xy 115.57 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7706,16 +7704,6 @@
 			(type default)
 		)
 		(uuid "2deefe37-5f7f-4571-a004-f381f686078e")
-	)
-	(wire
-		(pts
-			(xy 114.3 33.02) (xy 114.3 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eb11309-6eba-4caf-972d-2b91bb3e3c0c")
 	)
 	(wire
 		(pts
@@ -7766,16 +7754,6 @@
 			(type default)
 		)
 		(uuid "3321d1c0-6c44-4c20-bea9-031fc58f008f")
-	)
-	(wire
-		(pts
-			(xy 114.3 33.02) (xy 121.92 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362ec826-045d-46b3-abc4-11033fa7feda")
 	)
 	(wire
 		(pts
@@ -8679,16 +8657,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 52.07) (xy 115.57 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17d4e7d-f562-4e1f-900f-4a9f337c3c48")
-	)
-	(wire
-		(pts
 			(xy 195.58 85.09) (xy 201.93 85.09)
 		)
 		(stroke
@@ -8866,16 +8834,6 @@
 			(type default)
 		)
 		(uuid "cf9ee5ff-e6bd-4215-a493-cd597f692ff6")
-	)
-	(wire
-		(pts
-			(xy 116.84 52.07) (xy 115.57 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfba04f9-c3d0-41e9-9a82-1ab78660a34a")
 	)
 	(wire
 		(pts
@@ -9166,16 +9124,6 @@
 			(type default)
 		)
 		(uuid "f94549da-adc3-4b88-8928-21adfce7e543")
-	)
-	(wire
-		(pts
-			(xy 115.57 38.1) (xy 121.92 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc39c706-7d70-4ed5-8906-421d56516865")
 	)
 	(wire
 		(pts
@@ -10674,7 +10622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 311.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -10992,7 +10940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 236.22 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11535,7 +11483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 204.47 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12768,7 +12716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 298.45 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13055,7 +13003,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 35.56 0)
+		(at 115.57 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13066,7 +13014,7 @@
 		(fields_autoplaced yes)
 		(uuid "43811afb-cf07-49a7-b539-1e0900b71825")
 		(property "Reference" "C2"
-			(at 106.68 34.2962 0)
+			(at 118.11 34.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13077,7 +13025,7 @@
 			)
 		)
 		(property "Value" "2.2µ"
-			(at 106.68 36.8362 0)
+			(at 118.11 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13088,7 +13036,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 104.14 35.56 0)
+			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13099,7 +13047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 35.56 0)
+			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13110,7 +13058,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 35.56 0)
+			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13569,7 +13517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aktive_Bal_Footprints:TO-220AB_ONS"
 			(at 43.688 26.162 0)
 			(hide yes)
 			(show_name no)
@@ -13809,7 +13757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 158.75 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14298,7 +14246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 123.19 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14379,7 +14327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 170.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14864,7 +14812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 204.47 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15977,88 +15925,6 @@
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 114.3 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cf1ccfe-b389-4d07-8c86-fb955446a1c0")
-		(property "Reference" "J16"
-			(at 118.11 55.2449 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 118.11 57.7849 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 114.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85cef04e-1fe2-43f0-bb00-9b3de72f9881")
-		)
-		(pin "2"
-			(uuid "04b23f9a-1eb7-413d-adf6-aac92224d063")
-		)
-		(instances
-			(project "Aktive_Bal"
-				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -17483,7 +17349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 105.41 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -17886,7 +17752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 201.93 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18126,7 +17992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
 			(at 158.75 33.02 0)
 			(hide yes)
 			(show_name no)

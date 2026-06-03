@@ -6641,7 +6641,7 @@
 	)
 	(global_label "B7"
 		(shape input)
-		(at 252.73 107.95 180)
+		(at 252.73 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6651,7 +6651,7 @@
 		)
 		(uuid "1676c731-59a9-4260-b26a-3a368f5b01aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 107.95 0)
+			(at 247.2653 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6737,7 +6737,7 @@
 	)
 	(global_label "B14"
 		(shape input)
-		(at 35.56 194.31 180)
+		(at 35.56 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6747,7 +6747,7 @@
 		)
 		(uuid "2531b4a3-4161-4809-a28e-b36946afb978")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8858 194.31 0)
+			(at 28.8858 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6785,7 +6785,7 @@
 	)
 	(global_label "B14"
 		(shape input)
-		(at 252.73 196.85 180)
+		(at 252.73 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6795,7 +6795,7 @@
 		)
 		(uuid "262de8c6-4116-412f-9b6a-c5ad09f99a35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0558 196.85 0)
+			(at 246.0558 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,7 +6833,7 @@
 	)
 	(global_label "B11"
 		(shape input)
-		(at 35.56 153.67 180)
+		(at 35.56 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6843,7 +6843,7 @@
 		)
 		(uuid "2ae88cc5-ac83-4408-bb48-0f94659c8178")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8858 153.67 0)
+			(at 28.8858 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6905,7 +6905,7 @@
 	)
 	(global_label "B16"
 		(shape input)
-		(at 35.56 214.63 180)
+		(at 35.56 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6915,7 +6915,7 @@
 		)
 		(uuid "3c15906c-b000-466f-aff3-dd88bba5b5d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8858 214.63 0)
+			(at 28.8858 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,7 +6953,7 @@
 	)
 	(global_label "B3"
 		(shape input)
-		(at 252.73 57.15 180)
+		(at 252.73 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6963,7 +6963,7 @@
 		)
 		(uuid "3e4ed5e8-9a0c-433c-976a-963737383b78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 57.15 0)
+			(at 247.2653 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +7001,7 @@
 	)
 	(global_label "B4"
 		(shape input)
-		(at 35.56 63.5 180)
+		(at 35.56 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7011,7 +7011,7 @@
 		)
 		(uuid "4b444082-1dc4-44a6-8bcd-bc949ed361dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 63.5 0)
+			(at 30.0953 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7049,7 +7049,7 @@
 	)
 	(global_label "B10"
 		(shape input)
-		(at 252.73 146.05 180)
+		(at 252.73 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7059,7 +7059,7 @@
 		)
 		(uuid "4ffa7f82-db2f-4b1b-983f-f95c4edbfc98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0558 146.05 0)
+			(at 246.0558 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7073,7 +7073,7 @@
 	)
 	(global_label "B5"
 		(shape input)
-		(at 35.56 82.55 180)
+		(at 35.56 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7083,7 +7083,7 @@
 		)
 		(uuid "53659d7c-259d-4036-a475-f454882b60c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 82.55 0)
+			(at 30.0953 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7193,7 +7193,7 @@
 	)
 	(global_label "B7"
 		(shape input)
-		(at 35.56 102.87 180)
+		(at 35.56 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7203,7 +7203,7 @@
 		)
 		(uuid "5e29928d-d190-4f21-87a8-563b4db7a577")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 102.87 0)
+			(at 30.0953 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +7217,7 @@
 	)
 	(global_label "B9"
 		(shape input)
-		(at 252.73 133.35 180)
+		(at 252.73 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7227,7 +7227,7 @@
 		)
 		(uuid "5f54d215-1658-4d40-8c43-c391a3a99add")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 133.35 0)
+			(at 247.2653 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,7 +7265,7 @@
 	)
 	(global_label "B8"
 		(shape input)
-		(at 252.73 120.65 180)
+		(at 252.73 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7275,7 +7275,7 @@
 		)
 		(uuid "66e51bfc-e4a9-468c-b3c2-c4104f33f43d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 120.65 0)
+			(at 247.2653 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7313,7 +7313,7 @@
 	)
 	(global_label "B9"
 		(shape input)
-		(at 35.56 133.35 180)
+		(at 35.56 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7323,7 +7323,7 @@
 		)
 		(uuid "68f26685-040a-4b6e-91fd-0290fa16f416")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 133.35 0)
+			(at 30.0953 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7337,7 +7337,7 @@
 	)
 	(global_label "B15"
 		(shape input)
-		(at 35.56 204.47 180)
+		(at 35.56 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7347,7 +7347,7 @@
 		)
 		(uuid "69b218d1-628e-4373-a5de-3f1429d5389c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8858 204.47 0)
+			(at 28.8858 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,7 +7361,7 @@
 	)
 	(global_label "B2"
 		(shape input)
-		(at 252.73 44.45 180)
+		(at 252.73 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7371,7 +7371,7 @@
 		)
 		(uuid "69fa8aa9-a730-4c35-b8c1-330e58dfbd0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 44.45 0)
+			(at 247.2653 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7385,7 +7385,7 @@
 	)
 	(global_label "B4"
 		(shape input)
-		(at 252.73 69.85 180)
+		(at 252.73 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7395,7 +7395,7 @@
 		)
 		(uuid "6a5c1ada-e066-4941-9e79-4327f9159a4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 69.85 0)
+			(at 247.2653 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,7 +7601,7 @@
 	)
 	(global_label "B16"
 		(shape input)
-		(at 252.73 222.25 180)
+		(at 252.73 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7611,7 +7611,7 @@
 		)
 		(uuid "7ab0ed10-0006-48f3-afbf-d979e9461b68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0558 222.25 0)
+			(at 246.0558 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7649,7 +7649,7 @@
 	)
 	(global_label "B13"
 		(shape input)
-		(at 252.73 184.15 180)
+		(at 252.73 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7659,7 +7659,7 @@
 		)
 		(uuid "7c1a55c7-9964-4279-b12e-6a4d83138c9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0558 184.15 0)
+			(at 246.0558 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7673,7 +7673,7 @@
 	)
 	(global_label "B3"
 		(shape input)
-		(at 35.56 53.34 180)
+		(at 35.56 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7683,7 +7683,7 @@
 		)
 		(uuid "88960362-9ad3-4d2e-bcfd-67ddf94e4dce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 53.34 0)
+			(at 30.0953 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7697,7 +7697,7 @@
 	)
 	(global_label "B15"
 		(shape input)
-		(at 252.73 209.55 180)
+		(at 252.73 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7707,7 +7707,7 @@
 		)
 		(uuid "8a6793d7-8b02-45fb-97d1-e014bb6feee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0558 209.55 0)
+			(at 246.0558 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8009,7 +8009,7 @@
 	)
 	(global_label "B11"
 		(shape input)
-		(at 252.73 158.75 180)
+		(at 252.73 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8019,7 +8019,7 @@
 		)
 		(uuid "a5ed0176-0cb0-4eb8-a197-4f088c449e20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0558 158.75 0)
+			(at 246.0558 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8033,7 +8033,7 @@
 	)
 	(global_label "B13"
 		(shape input)
-		(at 35.56 184.15 180)
+		(at 35.56 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8043,7 +8043,7 @@
 		)
 		(uuid "a6589dc2-d268-4a4a-a7e8-9d89859ce1e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8858 184.15 0)
+			(at 28.8858 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8177,7 +8177,7 @@
 	)
 	(global_label "B1"
 		(shape input)
-		(at 35.56 33.02 180)
+		(at 35.56 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8187,7 +8187,7 @@
 		)
 		(uuid "b174d801-0b6b-46c4-825e-af40cf63d4df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 33.02 0)
+			(at 30.0953 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,7 +8201,7 @@
 	)
 	(global_label "B12"
 		(shape input)
-		(at 252.73 171.45 180)
+		(at 252.73 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8211,7 +8211,7 @@
 		)
 		(uuid "b24086d2-bd47-40dc-bdde-5765713ef79f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0558 171.45 0)
+			(at 246.0558 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8225,7 +8225,7 @@
 	)
 	(global_label "B2"
 		(shape input)
-		(at 35.56 43.18 180)
+		(at 35.56 204.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8235,7 +8235,7 @@
 		)
 		(uuid "b3022c0a-2a6b-4f28-a1e2-ecec51b656d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 43.18 0)
+			(at 30.0953 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8273,7 +8273,7 @@
 	)
 	(global_label "B5"
 		(shape input)
-		(at 252.73 82.55 180)
+		(at 252.73 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8283,7 +8283,7 @@
 		)
 		(uuid "bc1a4ce5-0abf-43a9-abd6-15e2ff20ac04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 82.55 0)
+			(at 247.2653 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8345,7 +8345,7 @@
 	)
 	(global_label "B1"
 		(shape input)
-		(at 252.73 31.75 180)
+		(at 252.73 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8355,7 +8355,7 @@
 		)
 		(uuid "c826ce89-bd9f-4d15-b829-0498424f8280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 31.75 0)
+			(at 247.2653 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8489,7 +8489,7 @@
 	)
 	(global_label "B12"
 		(shape input)
-		(at 35.56 163.83 180)
+		(at 35.56 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8499,7 +8499,7 @@
 		)
 		(uuid "d59d3481-4e94-46a5-964a-eb390e5fa88a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8858 163.83 0)
+			(at 28.8858 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8513,7 +8513,7 @@
 	)
 	(global_label "B6"
 		(shape input)
-		(at 252.73 95.25 180)
+		(at 252.73 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8523,7 +8523,7 @@
 		)
 		(uuid "d65b454a-73ac-44f6-9c26-e2092024474e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2653 95.25 0)
+			(at 247.2653 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8537,7 +8537,7 @@
 	)
 	(global_label "B6"
 		(shape input)
-		(at 35.56 92.71 180)
+		(at 35.56 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8547,7 +8547,7 @@
 		)
 		(uuid "d6aab8b1-c79c-4699-9882-98993e20f4fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 92.71 0)
+			(at 30.0953 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8633,7 +8633,7 @@
 	)
 	(global_label "B10"
 		(shape input)
-		(at 35.56 143.51 180)
+		(at 35.56 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8643,7 +8643,7 @@
 		)
 		(uuid "e7ad8644-123b-44dd-b2ff-18c5619b3e39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.8858 143.51 0)
+			(at 28.8858 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8729,7 +8729,7 @@
 	)
 	(global_label "B8"
 		(shape input)
-		(at 35.56 113.03 180)
+		(at 35.56 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8739,7 +8739,7 @@
 		)
 		(uuid "fb907664-99d0-46c0-a00f-50b073122750")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0953 113.03 0)
+			(at 30.0953 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,6 +8775,2286 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 284.48 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09abb3ad-bc6d-4d87-9ad3-821b7f064ebb")
+		(property "Netzklasse" "signal"
+			(at 285.1785 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 146.05 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 80.01 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1565f3e5-134f-4eaf-8955-ddd2e2b30403")
+		(property "Netzklasse" "signal"
+			(at 80.7085 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -58.42 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bb66085-5647-4d2e-bbdc-5f5e206306f8")
+		(property "Netzklasse" "signal"
+			(at 94.6785 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -44.45 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 91.44 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e86b9a1-e995-436e-8b95-94740f65b683")
+		(property "Netzklasse" "signal"
+			(at 92.1385 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 284.48 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2043b75b-7f30-4514-8326-b4b3baf80b63")
+		(property "Netzklasse" "signal"
+			(at 285.1785 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 146.05 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2240ad54-cd77-4958-b150-cf8002cbeb15")
+		(property "Netzklasse" "signal"
+			(at 94.6785 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -44.45 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 92.71 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27f9776c-2f1c-4e9f-9e7d-8ca24d18338a")
+		(property "Netzklasse" "signal"
+			(at 93.4085 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 76.2 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28302686-ee64-4300-8f82-08299d91990f")
+		(property "Netzklasse" "signal"
+			(at 76.8985 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -62.23 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29eea170-7acb-455d-9730-8ba828a1bdb1")
+		(property "Netzklasse" "signal"
+			(at 79.4385 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bcf98de-196c-423c-8245-de959bdf4b21")
+		(property "Netzklasse" "power"
+			(at 195.0085 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30fb88f9-d926-4e09-b9d0-be8c103528e0")
+		(property "Netzklasse" "signal"
+			(at 78.1685 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -60.96 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "351cf002-834b-4966-896e-22642be7c91f")
+		(property "Netzklasse" "signal"
+			(at 79.4385 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "397b034e-5ce3-46f6-8603-7cca4a1482ea")
+		(property "Netzklasse" "power"
+			(at 197.5485 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bc7012c-985d-427d-b6f0-07aa6474dbae")
+		(property "Netzklasse" "signal"
+			(at 78.1685 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -60.96 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 91.44 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45987667-98c9-4583-a23f-957c98a269ea")
+		(property "Netzklasse" "signal"
+			(at 92.1385 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "463623a2-d9dc-4c8d-a2fe-55f7189a3b29")
+		(property "Netzklasse" "signal"
+			(at 78.1685 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -60.96 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48b7ff6a-16d2-4d6d-b96c-d153a093b644")
+		(property "Netzklasse" "signal"
+			(at 78.1685 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -60.96 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 79.375 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bb2eac1-2840-440c-9ec1-5ce2ec81b3ee")
+		(property "Netzklasse" "signal"
+			(at 80.0735 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.055 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 285.75 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c21d1eb-1ccb-43f9-a5d8-1bb2fe20ccef")
+		(property "Netzklasse" "signal"
+			(at 286.4485 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 147.32 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ccc886c-595e-46bd-bf8b-2ea44698001d")
+		(property "Netzklasse" "signal"
+			(at 79.4385 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f7da36c-805b-475a-92ba-fbe59e52a482")
+		(property "Netzklasse" "power"
+			(at 197.5485 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50384f6a-9568-433b-aa6f-076972569ca8")
+		(property "Netzklasse" "power"
+			(at 197.5485 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5853cbd3-d726-4d4b-adcb-8e1ecbdf1823")
+		(property "Netzklasse" "signal"
+			(at 94.6785 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -44.45 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58760b51-d6f0-473d-8ae8-de9d053c2e51")
+		(property "Netzklasse" "signal"
+			(at 79.4385 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 287.02 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ae8823a-2077-4468-882e-51b8c627b9ff")
+		(property "Netzklasse" "signal"
+			(at 287.7185 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 148.59 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b89347e-707d-4c2b-9b67-df6902e06e37")
+		(property "Netzklasse" "power"
+			(at 195.0085 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61b32e45-43ff-46e4-8c51-9d82c43b44ca")
+		(property "Netzklasse" "signal"
+			(at 79.4385 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d257b36-4916-40b1-b878-34d069269bbf")
+		(property "Netzklasse" "power"
+			(at 195.0085 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 285.115 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70f12fd2-c296-432e-b43a-b22c055fd473")
+		(property "Netzklasse" "signal"
+			(at 285.8135 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 146.685 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 91.44 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7334afa1-ca8a-4906-bfe9-be518c93dd38")
+		(property "Netzklasse" "signal"
+			(at 92.1385 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 283.21 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7644c9ed-2547-4469-9ca2-eb3e12b2a3fb")
+		(property "Netzklasse" "signal"
+			(at 283.9085 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 144.78 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 96.52 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76ef09c4-4679-4bcc-9b2c-eed995f0c6eb")
+		(property "Netzklasse" "signal"
+			(at 97.2185 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -41.91 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78f2fe14-82d7-4592-ac21-9a37f54c98c1")
+		(property "Netzklasse" "power"
+			(at 195.0085 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e3b53d1-a8aa-4428-b294-6ff604c4f199")
+		(property "Netzklasse" "power"
+			(at 195.0085 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 284.48 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ec4a91b-0980-4379-8e0d-1458dd50c7c1")
+		(property "Netzklasse" "signal"
+			(at 285.1785 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 146.05 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8038be5f-10aa-4ebd-82a8-7747a08d4172")
+		(property "Netzklasse" "power"
+			(at 197.5485 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "878347a7-62dd-4b26-9658-2f7a1baa7c6b")
+		(property "Netzklasse" "signal"
+			(at 79.4385 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cf3a380-86cb-4ad9-a392-e0ce4383a6dc")
+		(property "Netzklasse" "signal"
+			(at 94.6785 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -44.45 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 285.75 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e9980d6-1d18-4adf-b14b-352ebbda71dd")
+		(property "Netzklasse" "signal"
+			(at 286.4485 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 147.32 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "900fd8ee-bf2e-4a64-934c-ddeedcdd933b")
+		(property "Netzklasse" "power"
+			(at 195.0085 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9065ca42-d862-4fa7-a05e-38e6af6bfa4f")
+		(property "Netzklasse" "power"
+			(at 197.5485 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 91.44 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9377d5ce-fd1b-4f60-943a-755bb66a4e81")
+		(property "Netzklasse" "signal"
+			(at 92.1385 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 91.44 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b73b014-a9df-49e6-9412-22622c85d57e")
+		(property "Netzklasse" "signal"
+			(at 92.1385 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 284.48 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a712415f-cb0e-4c35-81ff-662f280d49c6")
+		(property "Netzklasse" "signal"
+			(at 285.1785 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 146.05 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 286.0469 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7378042-80f9-429a-9490-47ead789d42b")
+		(property "Netzklasse" "signal"
+			(at 286.7454 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 147.6169 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 281.94 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9889d0e-cd64-4392-9a74-7a41cf6959f4")
+		(property "Netzklasse" "signal"
+			(at 282.6385 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 143.51 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab4ef8d9-b220-4f05-a9ae-b211886b1ae5")
+		(property "Netzklasse" "power"
+			(at 197.5485 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acd3fa88-113e-4892-a272-7cc8df1dabb9")
+		(property "Netzklasse" "power"
+			(at 195.0085 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae66c2f8-5d39-4d43-8ac5-747cca8d8979")
+		(property "Netzklasse" "signal"
+			(at 94.6785 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -44.45 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b266eefc-2ea9-40a3-bcf9-4372fc752fa0")
+		(property "Netzklasse" "signal"
+			(at 78.1685 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -60.96 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 287.02 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3bc8f56-2d17-4c13-8119-557679ac1e26")
+		(property "Netzklasse" "signal"
+			(at 287.7185 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 148.59 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bffbfc1e-88d6-4616-839a-fe012f1a669a")
+		(property "Netzklasse" "signal"
+			(at 94.6785 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -44.45 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 280.67 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3f21004-f565-4d3d-9c56-a112b0ca36bf")
+		(property "Netzklasse" "signal"
+			(at 281.3685 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 142.24 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c78ec63e-30a9-498a-af46-f6a4cd3c9173")
+		(property "Netzklasse" "signal"
+			(at 94.6785 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -44.45 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cac76df0-3bb5-4722-8274-b8ec06450751")
+		(property "Netzklasse" "power"
+			(at 197.5485 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbe37730-f0cb-4df6-9d76-52ece44fc650")
+		(property "Netzklasse" "power"
+			(at 195.0085 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 91.44 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d14dcadd-fe96-44a6-bc45-9ccabec1ef3b")
+		(property "Netzklasse" "signal"
+			(at 92.1385 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 331.47 220.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5cbce5e-30ff-4109-83c0-4ad8dcf70a2d")
+		(property "Netzklasse" "power"
+			(at 334.01 220.2815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -58.42 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbce7ed4-6a16-492d-930a-14e151a1df66")
+		(property "Netzklasse" "power"
+			(at 197.5485 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 287.02 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbf1b0b2-a857-4993-a8e2-90dda8933f91")
+		(property "Netzklasse" "signal"
+			(at 287.7185 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 148.59 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e12827e7-99c7-4561-9dd6-55a4c66efbc8")
+		(property "Netzklasse" "signal"
+			(at 79.4385 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 194.31 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e175f0cf-768a-4f24-8dd1-e38a33962d6e")
+		(property "Netzklasse" "power"
+			(at 195.0085 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 92.71 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7946014-0d88-4aab-888a-9b9db6cb056d")
+		(property "Netzklasse" "signal"
+			(at 93.4085 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 284.48 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb618de7-680b-4574-94fb-11b1d86911e8")
+		(property "Netzklasse" "signal"
+			(at 285.1785 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 146.05 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef665929-1de8-4819-a30f-e324fa381aa4")
+		(property "Netzklasse" "signal"
+			(at 79.4385 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 285.75 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2ede21c-47f5-4a4a-bbaa-9c942cd5f7ca")
+		(property "Netzklasse" "signal"
+			(at 286.4485 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 147.32 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Aktive_Bal_Lib:NTTFS6H888NL")
 		(at 300.99 196.85 0)
@@ -8787,7 +11067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e133cf-32bf-4710-9b2e-897fa76e7bed")
-		(property "Reference" "Q14_L1"
+		(property "Reference" "Q3_L1"
 			(at 307.34 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8809,7 +11089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -8902,7 +11182,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q14_L1")
+					(reference "Q3_L1")
 					(unit 1)
 				)
 			)
@@ -8919,7 +11199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01c21376-c3ec-439c-85cb-5877f6d5398e")
-		(property "Reference" "R57"
+		(property "Reference" "R29"
 			(at 85.09 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8981,7 +11261,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R57")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8999,7 +11279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02435776-2bb7-4dc3-9077-b431844c20fe")
-		(property "Reference" "Q10_L1"
+		(property "Reference" "Q7_L1"
 			(at 307.34 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9021,7 +11301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9114,7 +11394,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q10_L1")
+					(reference "Q7_L1")
 					(unit 1)
 				)
 			)
@@ -9131,7 +11411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04387e1d-2770-4d3a-a398-2d1b3c34d80b")
-		(property "Reference" "R92"
+		(property "Reference" "R70"
 			(at 267.97 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9193,7 +11473,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R92")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -9210,7 +11490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07524c2f-b8b4-42a3-96ef-01a2df64a889")
-		(property "Reference" "R50"
+		(property "Reference" "R57"
 			(at 132.08 175.006 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +11552,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R50")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -9289,7 +11569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "076cfd29-99f9-44f7-9dd4-53d5e6067ebb")
-		(property "Reference" "R74"
+		(property "Reference" "R61"
 			(at 267.97 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9351,7 +11631,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R74")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -9368,7 +11648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07e62861-a2bd-4803-9edf-c8c867dad84e")
-		(property "Reference" "R93"
+		(property "Reference" "R86"
 			(at 275.59 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9430,7 +11710,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R93")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -9448,7 +11728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09d5e0bf-a610-4a78-a411-4ea338faab0b")
-		(property "Reference" "Q9_L1"
+		(property "Reference" "Q8_L1"
 			(at 307.34 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9470,7 +11750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9563,7 +11843,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q9_L1")
+					(reference "Q8_L1")
 					(unit 1)
 				)
 			)
@@ -9580,7 +11860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a507657-412e-4e85-8c76-fd6ecd81f2b3")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR082"
 			(at 106.68 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -9641,7 +11921,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR094")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9658,7 +11938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ace34ab-7653-422c-925e-883a7b1e766e")
-		(property "Reference" "R60"
+		(property "Reference" "R32"
 			(at 85.09 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9720,7 +12000,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R60")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -9738,7 +12018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1db7b9-cd07-4ff7-997e-d22fc7f20c62")
-		(property "Reference" "J11"
+		(property "Reference" "J15"
 			(at 205.74 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9805,7 +12085,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "J11")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -9822,7 +12102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c1e2a85-b657-4f01-a65b-5fe7ba45ac73")
-		(property "Reference" "R86"
+		(property "Reference" "R67"
 			(at 267.97 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9884,7 +12164,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R86")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -9901,7 +12181,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cab8828-9344-40da-9b40-d8e437b39278")
-		(property "Reference" "R35"
+		(property "Reference" "R24"
 			(at 45.72 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9963,7 +12243,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R35")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9980,7 +12260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d61a894-b7f3-440d-9e32-818576b1fd35")
-		(property "Reference" "R64"
+		(property "Reference" "R36"
 			(at 85.09 140.716 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10042,7 +12322,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R64")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -10060,7 +12340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11475922-781a-486d-ad94-43218b9779ce")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 59.69 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10213,7 +12493,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "U12")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -10230,7 +12510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12d9813b-a9e2-4bca-a494-6f8891a4c461")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR086"
 			(at 138.43 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10291,7 +12571,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR087")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -10308,7 +12588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14d8888b-ccd0-46a9-be99-eb0fd271896e")
-		(property "Reference" "R43"
+		(property "Reference" "R46"
 			(at 100.33 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10370,7 +12650,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R43")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -10387,7 +12667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18a58b5c-0e60-4937-854f-9ab823ed2f78")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0103"
 			(at 281.94 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -10448,7 +12728,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0108")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -10465,7 +12745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18b7c0da-b0ec-497c-b9b2-ec4fbd04cd90")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0104"
 			(at 281.94 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -10526,7 +12806,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0109")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -10543,7 +12823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c5aa10d-4d78-4a1c-8239-dde096d6efcd")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR089"
 			(at 138.43 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -10604,7 +12884,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR093")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -10621,7 +12901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c666aba-b19b-4e8e-b3e2-8ce3821d0aa8")
-		(property "Reference" "R24"
+		(property "Reference" "R14"
 			(at 45.72 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10683,7 +12963,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R24")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10700,7 +12980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e47d1ae-5f97-4a76-b5ca-dfa5a5858a10")
-		(property "Reference" "R101"
+		(property "Reference" "R90"
 			(at 275.59 215.646 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +13042,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R101")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -10858,7 +13138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21509584-e9df-4b43-bcec-e2e7aaf0551b")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 45.72 28.448 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10920,7 +13200,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10938,7 +13218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21a08d88-177a-47ab-9737-0b2e6abb750f")
-		(property "Reference" "R54"
+		(property "Reference" "R92"
 			(at 328.93 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11008,7 +13288,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R54")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -11025,7 +13305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21e1ba0a-00ab-4129-8ad1-d37caaf548da")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR095"
 			(at 281.94 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11086,7 +13366,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0100")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -11104,7 +13384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22634592-1a9e-4aa3-82ba-3debe656c4a2")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR049"
 			(at 33.02 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11165,7 +13445,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0130")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11182,7 +13462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "249d6115-1025-4157-8a47-b2f9722b92b4")
-		(property "Reference" "R36"
+		(property "Reference" "R25"
 			(at 45.72 189.738 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11244,7 +13524,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R36")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11262,7 +13542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2605d533-6553-4933-888c-219bc47a010c")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR050"
 			(at 33.02 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11323,7 +13603,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0131")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11340,7 +13620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "268c8929-472a-4e5a-8a3e-a0c7d7f3df37")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0105"
 			(at 281.94 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -11401,7 +13681,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0110")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -11419,7 +13699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28350fd6-f21e-4cb4-9096-609169ece06d")
-		(property "Reference" "J10"
+		(property "Reference" "J14"
 			(at 205.74 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11486,7 +13766,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "J10")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -11504,7 +13784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a644867-6572-40dd-b4ca-e94c2bd27ce4")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR043"
 			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11565,7 +13845,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0124")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11582,7 +13862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2addb86d-8df9-4945-93b3-4e1db0fa53a2")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR083"
 			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11643,7 +13923,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR063")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -11660,7 +13940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b98cb62-0014-4ffc-915a-50110369ad1d")
-		(property "Reference" "R90"
+		(property "Reference" "R69"
 			(at 267.97 148.336 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11722,7 +14002,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R90")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -11740,7 +14020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d022143-e858-4a63-8e21-df30f90158e6")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR072"
 			(at 63.5 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11801,7 +14081,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR054")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -11818,7 +14098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d8a4f2a-da22-4adf-b387-8490cffcb54e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0108"
 			(at 340.36 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -11879,7 +14159,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR065")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -11896,7 +14176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fc52f84-0386-4e8e-8958-249b805ef3eb")
-		(property "Reference" "R94"
+		(property "Reference" "R71"
 			(at 267.97 173.736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,7 +14238,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R94")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -11976,7 +14256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30349e5c-6bc5-46c0-b305-6f40166f7672")
-		(property "Reference" "Q15_H1"
+		(property "Reference" "Q2_H1"
 			(at 118.11 208.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11998,7 +14278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 116.84 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12091,7 +14371,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q15_H1")
+					(reference "Q2_H1")
 					(unit 1)
 				)
 			)
@@ -12109,7 +14389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "310a8b6f-97eb-4b53-949e-7b40c5907785")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR065"
 			(at 63.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12170,7 +14450,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR047")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12187,7 +14467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31cf4077-c077-42d7-8820-04689c04c65f")
-		(property "Reference" "R66"
+		(property "Reference" "R38"
 			(at 85.09 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12249,7 +14529,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R66")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -12267,7 +14547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31fce5e4-d379-4e1f-b344-db222654bf43")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR068"
 			(at 63.5 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12328,7 +14608,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR050")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -12345,7 +14625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32813124-1b47-4595-8983-154aa6680ba9")
-		(property "Reference" "R95"
+		(property "Reference" "R87"
 			(at 275.59 177.546 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12407,7 +14687,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R95")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -12504,7 +14784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33a8f22c-d0ff-4e83-8be6-0badc430d060")
-		(property "Reference" "Q15_L1"
+		(property "Reference" "Q16_L1"
 			(at 307.34 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12526,7 +14806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12619,7 +14899,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q15_L1")
+					(reference "Q16_L1")
 					(unit 1)
 				)
 			)
@@ -12636,7 +14916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3564f778-70ae-467a-81b6-982962faf439")
-		(property "Reference" "R44"
+		(property "Reference" "R54"
 			(at 132.08 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12698,7 +14978,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R44")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -12715,7 +14995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "362e4f6f-0c5c-45b3-8de5-3f9fbc729dad")
-		(property "Reference" "R100"
+		(property "Reference" "R74"
 			(at 267.97 211.836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12777,7 +15057,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R100")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -12794,7 +15074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39d0c414-e16d-4146-8f6e-b452eaad2ddd")
-		(property "Reference" "R53"
+		(property "Reference" "R51"
 			(at 100.33 214.376 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12856,7 +15136,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R53")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -12874,7 +15154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d358c0a-094b-4815-b827-d332df56f2a2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR066"
 			(at 63.5 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12935,7 +15215,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR048")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -12952,7 +15232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3dbef02d-f33f-4ae7-b1c0-b63d75d480b1")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR075"
 			(at 106.68 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13013,7 +15293,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR062")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -13031,7 +15311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ef23ba8-b31e-409f-9f51-37b8e5995686")
-		(property "Reference" "U11"
+		(property "Reference" "U12"
 			(at 59.69 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13184,7 +15464,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "U11")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -13202,7 +15482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40afaaaa-3ce8-4021-a3de-6dc9981a7462")
-		(property "Reference" "Q12_H1"
+		(property "Reference" "Q5_H1"
 			(at 149.86 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,7 +15504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 148.59 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -13317,7 +15597,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q12_H1")
+					(reference "Q5_H1")
 					(unit 1)
 				)
 			)
@@ -13334,7 +15614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "425c6087-7a41-45b0-ad11-19f294a8b509")
-		(property "Reference" "R56"
+		(property "Reference" "R28"
 			(at 85.09 40.386 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13396,7 +15676,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R56")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -13413,7 +15693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43434604-7371-4d57-8095-5aa0d058f3cb")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR088"
 			(at 138.43 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13474,7 +15754,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR091")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -13491,7 +15771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "437fe0ad-af5d-4582-a96d-258dee4c6065")
-		(property "Reference" "R51"
+		(property "Reference" "R50"
 			(at 100.33 194.056 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13553,7 +15833,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R51")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -13570,7 +15850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "452f8acf-991e-4abd-b302-7fcfdc9e69cf")
-		(property "Reference" "R72"
+		(property "Reference" "R60"
 			(at 267.97 34.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13632,7 +15912,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R72")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -13650,7 +15930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4537aaeb-e421-49d8-b527-527685afdc17")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR059"
 			(at 63.5 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13711,7 +15991,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR036")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13728,7 +16008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45eda8c2-6f4d-41bb-a20a-74229f992812")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR090"
 			(at 138.43 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -13789,7 +16069,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR095")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -13807,7 +16087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47842f32-7b14-43ab-97e0-d0c72bd5767b")
-		(property "Reference" "Q16_H1"
+		(property "Reference" "Q1_H1"
 			(at 149.86 218.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13829,7 +16109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 148.59 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -13922,7 +16202,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q16_H1")
+					(reference "Q1_H1")
 					(unit 1)
 				)
 			)
@@ -13940,7 +16220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "480903c3-9b09-4b5d-a963-b8efd46312af")
-		(property "Reference" "Q13_L1"
+		(property "Reference" "Q4_L1"
 			(at 307.34 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13962,7 +16242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14055,7 +16335,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q13_L1")
+					(reference "Q4_L1")
 					(unit 1)
 				)
 			)
@@ -14072,7 +16352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a6ba5b2-6585-4f35-8f62-c5e282aa2c5f")
-		(property "Reference" "R73"
+		(property "Reference" "R76"
 			(at 275.59 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14134,7 +16414,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R73")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -14152,7 +16432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f91fe9e-b544-4a5d-b4a0-ccb427596475")
-		(property "Reference" "J8"
+		(property "Reference" "J13"
 			(at 205.74 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14219,7 +16499,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "J8")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -14237,7 +16517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50048ab4-3cd0-4f70-b76f-67f808059e55")
-		(property "Reference" "Q5_H1"
+		(property "Reference" "Q12_H1"
 			(at 118.11 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14259,7 +16539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14352,7 +16632,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q5_H1")
+					(reference "Q12_H1")
 					(unit 1)
 				)
 			)
@@ -14370,7 +16650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "508c273d-7b01-4397-83fb-634070c350dc")
-		(property "Reference" "Q4_L1"
+		(property "Reference" "Q13_L1"
 			(at 307.34 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14392,7 +16672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14485,7 +16765,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q4_L1")
+					(reference "Q13_L1")
 					(unit 1)
 				)
 			)
@@ -14502,7 +16782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50e292db-ae8d-40b9-87d7-14645215918c")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR092"
 			(at 281.94 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14563,7 +16843,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR097")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -14581,7 +16861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51137ff6-83b7-48b7-9c82-9c37ba10f0d9")
-		(property "Reference" "Q8_H1"
+		(property "Reference" "Q9_H1"
 			(at 149.86 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14603,7 +16883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 148.59 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -14696,7 +16976,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q8_H1")
+					(reference "Q9_H1")
 					(unit 1)
 				)
 			)
@@ -14714,7 +16994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524741e9-dbaf-4fe8-a9f9-496f6f314088")
-		(property "Reference" "Q4_H1"
+		(property "Reference" "Q13_H1"
 			(at 149.86 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14736,7 +17016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -14829,7 +17109,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q4_H1")
+					(reference "Q13_H1")
 					(unit 1)
 				)
 			)
@@ -14846,7 +17126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52ae1988-5301-41ef-8ebb-22aa2a4ba19a")
-		(property "Reference" "R46"
+		(property "Reference" "R55"
 			(at 132.08 124.206 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14908,7 +17188,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R46")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -14925,7 +17205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54dff769-3bd9-4a0c-9921-b12d7bb81a1f")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR078"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14986,7 +17266,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR086")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -15004,7 +17284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56a17933-0fc9-4923-919a-ee6fccc18089")
-		(property "Reference" "Q15_L1"
+		(property "Reference" "Q2_L1"
 			(at 307.34 208.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15026,7 +17306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -15119,7 +17399,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q15_L1")
+					(reference "Q2_L1")
 					(unit 1)
 				)
 			)
@@ -15136,7 +17416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "579c4f3e-8fd4-4e51-849d-d9656865cdaf")
-		(property "Reference" "R84"
+		(property "Reference" "R66"
 			(at 267.97 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15198,7 +17478,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R84")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -15216,7 +17496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a2a5150-d835-4c5a-8f50-cb7ae3bc3868")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR045"
 			(at 33.02 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15277,7 +17557,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0126")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15294,7 +17574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a40f781-318e-473f-91fb-8e8adb3395b3")
-		(property "Reference" "R23"
+		(property "Reference" "R13"
 			(at 45.72 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15356,7 +17636,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R23")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15374,7 +17654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5efbc079-2da1-4541-a410-e3d6e4a6c6a9")
-		(property "Reference" "Q2_L1"
+		(property "Reference" "Q15_L1"
 			(at 307.34 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15396,7 +17676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15489,7 +17769,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q2_L1")
+					(reference "Q15_L1")
 					(unit 1)
 				)
 			)
@@ -15506,7 +17786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5efff704-2706-4cf7-88eb-bd4ecaf8cd9b")
-		(property "Reference" "R98"
+		(property "Reference" "R73"
 			(at 267.97 199.136 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15568,7 +17848,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R98")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -15585,7 +17865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f40b248-9646-4717-8ecc-b3d0c41b953a")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR099"
 			(at 281.94 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -15646,7 +17926,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0104")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -15664,7 +17944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f4e19eb-acda-49b9-ae63-15fb29767de4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR070"
 			(at 63.5 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15725,7 +18005,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR052")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -15742,7 +18022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fc3afd2-65b3-4934-8c6d-17240a56c937")
-		(property "Reference" "R82"
+		(property "Reference" "R65"
 			(at 267.97 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15804,7 +18084,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R82")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -15821,7 +18101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6278dd2f-2ce8-493b-8c6f-983aa3de81e7")
-		(property "Reference" "R102"
+		(property "Reference" "R75"
 			(at 267.97 224.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15883,7 +18163,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R102")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -15900,7 +18180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6423a278-6da8-4145-b8be-5eb81bef89ee")
-		(property "Reference" "R71"
+		(property "Reference" "R43"
 			(at 85.09 221.996 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15962,7 +18242,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R71")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -15980,7 +18260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "646e4ba7-85ea-4842-8713-b041da3c9fd3")
-		(property "Reference" "Q2_H1"
+		(property "Reference" "Q15_H1"
 			(at 149.86 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16002,7 +18282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 148.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16095,7 +18375,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q2_H1")
+					(reference "Q15_H1")
 					(unit 1)
 				)
 			)
@@ -16113,7 +18393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64db804f-82c7-45db-819c-322841f8a311")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR054"
 			(at 33.02 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -16174,7 +18454,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0135")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -16191,7 +18471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "653b0b60-2e55-4a6a-9abb-fb9db4b7a08a")
-		(property "Reference" "R75"
+		(property "Reference" "R77"
 			(at 275.59 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16253,7 +18533,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R75")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -16270,7 +18550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65c87d22-5f32-4792-a359-744842e57956")
-		(property "Reference" "R52"
+		(property "Reference" "R58"
 			(at 132.08 205.486 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16332,7 +18612,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R52")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -16349,7 +18629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65cd371d-8fdf-4770-8e3c-0c37f99411c9")
-		(property "Reference" "R48"
+		(property "Reference" "R56"
 			(at 132.08 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16411,7 +18691,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R48")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -16429,7 +18709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67178c49-d9d3-4da2-b085-170fe9355b44")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR048"
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16490,7 +18770,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0129")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16507,7 +18787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "673dd521-aba4-45b3-8c97-0964aae60a9b")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR098"
 			(at 281.94 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16568,7 +18848,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0103")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -16585,7 +18865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68572e8d-ac75-4a82-93e7-ed016711ca53")
-		(property "Reference" "R31"
+		(property "Reference" "R20"
 			(at 45.72 128.778 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16647,7 +18927,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R31")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -16664,7 +18944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68b55bdb-3f6a-4a6a-a72a-b47361909617")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR091"
 			(at 281.94 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16725,7 +19005,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR096")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -16742,7 +19022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69cee258-1bf2-45e1-94ab-82b20fa6a6b2")
-		(property "Reference" "R81"
+		(property "Reference" "R80"
 			(at 275.59 88.646 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16804,7 +19084,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R81")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -16821,7 +19101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c9ec9b9-dcb3-422f-a5d1-1ee542838681")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR080"
 			(at 106.68 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -16882,7 +19162,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR090")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -16899,7 +19179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6de7cd81-47f7-4815-9b3b-b08251c00135")
-		(property "Reference" "R70"
+		(property "Reference" "R42"
 			(at 85.09 211.836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16961,7 +19241,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R70")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -16978,7 +19258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f435444-36fe-46fd-8d6d-75db14a70ff6")
-		(property "Reference" "R87"
+		(property "Reference" "R83"
 			(at 275.59 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17040,7 +19320,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R87")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -17057,7 +19337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7110851e-6dbf-4a43-a7fe-f9d6a07c9c09")
-		(property "Reference" "R59"
+		(property "Reference" "R31"
 			(at 85.09 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17119,7 +19399,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R59")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17137,7 +19417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b351ab-e79e-487d-9b2b-56f0cbee0bfa")
-		(property "Reference" "Q5_L1"
+		(property "Reference" "Q12_L1"
 			(at 307.34 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17159,7 +19439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17252,7 +19532,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q5_L1")
+					(reference "Q12_L1")
 					(unit 1)
 				)
 			)
@@ -17270,7 +19550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76201eef-d2f9-4a0f-9025-6e429914405c")
-		(property "Reference" "J12"
+		(property "Reference" "J16"
 			(at 205.74 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17337,7 +19617,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "J12")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -17354,7 +19634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78e9c82f-5093-4de6-9cd7-b2e3c78974cc")
-		(property "Reference" "R30"
+		(property "Reference" "R19"
 			(at 45.72 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17416,7 +19696,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R30")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17434,7 +19714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79292a6b-7897-4b5a-9004-d97c78d27bbc")
-		(property "Reference" "J7"
+		(property "Reference" "J12"
 			(at 205.74 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17501,7 +19781,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "J7")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -17518,7 +19798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "798452c8-d614-4c00-82f2-b7ecd94cef4a")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0106"
 			(at 281.94 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -17579,7 +19859,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0111")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -17597,7 +19877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7984d225-83fd-4b19-bfab-390733f00763")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 59.69 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17750,7 +20030,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -17767,7 +20047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b87d8df-8305-4122-ab8b-8d65740dfa86")
-		(property "Reference" "R69"
+		(property "Reference" "R41"
 			(at 85.09 201.676 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17829,7 +20109,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R69")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -17846,7 +20126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d02e437-4a5b-4d84-8c49-4281dae6ddbd")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR077"
 			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17907,7 +20187,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR084")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -17925,7 +20205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e75042-3ee1-42ac-b121-8592e923fd1f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR071"
 			(at 63.5 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -17986,7 +20266,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR053")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -18004,7 +20284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83965a66-0ecc-464e-9498-52c79235bdb0")
-		(property "Reference" "Q13_H1"
+		(property "Reference" "Q4_H1"
 			(at 118.11 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18026,7 +20306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 116.84 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18119,7 +20399,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q13_H1")
+					(reference "Q4_H1")
 					(unit 1)
 				)
 			)
@@ -18136,7 +20416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88df12c8-6f82-4cd8-8834-281eedea430c")
-		(property "Reference" "R28"
+		(property "Reference" "R17"
 			(at 45.72 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18198,7 +20478,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R28")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -18215,7 +20495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a116062-af10-42da-9b87-8a91073af1f7")
-		(property "Reference" "R26"
+		(property "Reference" "R15"
 			(at 45.72 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18277,7 +20557,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R26")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -18294,7 +20574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ba36756-84f7-42d5-8cb1-a94496d8ebcb")
-		(property "Reference" "R85"
+		(property "Reference" "R82"
 			(at 275.59 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18356,7 +20636,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R85")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -18374,7 +20654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f04e6cd-c5cd-4826-ace5-ef3af34e1105")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR055"
 			(at 33.02 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -18435,7 +20715,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0136")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -18452,7 +20732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f1702a2-637e-4d3d-a124-27e5cc4ab88d")
-		(property "Reference" "R99"
+		(property "Reference" "R89"
 			(at 275.59 202.946 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18514,7 +20794,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R99")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -18531,7 +20811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fb24bc0-ec82-40b6-9b5a-a37fe83ea6e6")
-		(property "Reference" "R37"
+		(property "Reference" "R26"
 			(at 45.72 200.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18593,7 +20873,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R37")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -18689,7 +20969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93309679-4c17-42e5-aa4c-6586d4672e8a")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR044"
 			(at 33.02 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -18750,7 +21030,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0125")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -18767,7 +21047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94209554-f918-470a-93c3-c882560d7c88")
-		(property "Reference" "R45"
+		(property "Reference" "R47"
 			(at 100.33 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18829,7 +21109,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R45")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -18846,7 +21126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "985ec403-b053-4a20-a756-d5975d3d28fa")
-		(property "Reference" "R65"
+		(property "Reference" "R37"
 			(at 85.09 150.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18908,7 +21188,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R65")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -18925,7 +21205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a3ec1b2-aca1-4415-a649-be44b8b88d47")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR081"
 			(at 106.68 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -18986,7 +21266,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR092")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -19004,7 +21284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b1fc2e5-94fe-4008-9e65-b7d15b4bd8e0")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR058"
 			(at 33.02 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -19065,7 +21345,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0139")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -19082,7 +21362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b6fd1b3-48e1-4ea8-8236-5bfb89feb938")
-		(property "Reference" "R39"
+		(property "Reference" "R44"
 			(at 100.33 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19144,7 +21424,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R39")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -19161,7 +21441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c152dd3-a3a0-4e7b-9b89-bb526d11f0ed")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 100.33 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19223,7 +21503,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -19240,7 +21520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c3e1a7e-520f-4aa5-a701-05c62ee64523")
-		(property "Reference" "R40"
+		(property "Reference" "R52"
 			(at 132.08 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19302,7 +21582,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R40")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -19320,7 +21600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8a86d7-55b7-4bd1-a60b-d7d4cd5b237e")
-		(property "Reference" "Q14_H1"
+		(property "Reference" "Q3_H1"
 			(at 149.86 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19342,7 +21622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 148.59 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -19435,7 +21715,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q14_H1")
+					(reference "Q3_H1")
 					(unit 1)
 				)
 			)
@@ -19452,7 +21732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e30af40-815f-4308-b7c5-7e60b3591207")
-		(property "Reference" "R33"
+		(property "Reference" "R22"
 			(at 45.72 150.114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19514,7 +21794,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R33")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -19531,7 +21811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e3e075a-44c3-4a0d-88c0-31617624fb59")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR096"
 			(at 281.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -19592,7 +21872,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0101")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -19609,7 +21889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e710d8e-b21a-4478-ad6b-0462b1579a0b")
-		(property "Reference" "R83"
+		(property "Reference" "R81"
 			(at 275.59 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19671,7 +21951,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R83")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -19688,7 +21968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0dbdf07-a4fb-4e51-bb6d-0729865a7ab0")
-		(property "Reference" "R77"
+		(property "Reference" "R78"
 			(at 275.59 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19750,7 +22030,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R77")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -19768,7 +22048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3380e9a-375d-4e66-9838-3e9983e53e11")
-		(property "Reference" "Q12_L1"
+		(property "Reference" "Q5_L1"
 			(at 307.34 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19790,7 +22070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -19883,7 +22163,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q12_L1")
+					(reference "Q5_L1")
 					(unit 1)
 				)
 			)
@@ -19901,7 +22181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a48346e5-942e-4703-8e2a-bf0f6af25e51")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR073"
 			(at 63.5 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -19962,7 +22242,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR055")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -19980,7 +22260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a48b87d3-f0ee-430f-9e61-8e1d5e862bd2")
-		(property "Reference" "Q10_H1"
+		(property "Reference" "Q7_H1"
 			(at 149.86 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20002,7 +22282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 148.59 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -20095,7 +22375,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q10_H1")
+					(reference "Q7_H1")
 					(unit 1)
 				)
 			)
@@ -20112,7 +22392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4c5b97d-b318-4533-aeba-552702fca083")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0102"
 			(at 281.94 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -20173,7 +22453,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0107")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -20190,7 +22470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6cd5d65-b419-47c1-a8cf-4ab104db2915")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0101"
 			(at 281.94 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -20251,7 +22531,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0106")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -20269,7 +22549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8ff1775-5a26-406e-b5a6-bde960d0254f")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR074"
 			(at 63.5 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -20330,7 +22610,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR056")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -20347,7 +22627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a91f0787-0b5a-4167-859f-4ebc5049908f")
-		(property "Reference" "R96"
+		(property "Reference" "R72"
 			(at 267.97 186.436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20409,7 +22689,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R96")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -20426,7 +22706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae783492-29ae-4bb8-a1b4-25be47a9225f")
-		(property "Reference" "R58"
+		(property "Reference" "R30"
 			(at 85.09 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20488,7 +22768,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R58")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -20505,7 +22785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae80d51a-92c7-4a21-985c-a0094dddb38e")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR076"
 			(at 106.68 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -20566,7 +22846,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR082")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -20584,7 +22864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b29c1ec5-66a9-4d48-96eb-132d7a72659a")
-		(property "Reference" "Q7_L1"
+		(property "Reference" "Q10_L1"
 			(at 307.34 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20606,7 +22886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -20699,7 +22979,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q7_L1")
+					(reference "Q10_L1")
 					(unit 1)
 				)
 			)
@@ -20716,7 +22996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3f00891-19b0-4245-9c1a-8e3b6da33948")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR093"
 			(at 281.94 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -20777,7 +23057,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR098")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -20795,7 +23075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b53b4db2-5af8-4b51-9fb4-eb1b5664906d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR062"
 			(at 63.5 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -20856,7 +23136,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR044")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -20873,7 +23153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7eba189-02a1-4bc0-b66b-02f25e6cbaa1")
-		(property "Reference" "R78"
+		(property "Reference" "R63"
 			(at 267.97 72.136 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20935,7 +23215,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R78")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -20953,7 +23233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8eb30c9-0fe6-4987-83c8-3e4e0d88006c")
-		(property "Reference" "Q6_L1"
+		(property "Reference" "Q11_L1"
 			(at 307.34 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20975,7 +23255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21068,7 +23348,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q6_L1")
+					(reference "Q11_L1")
 					(unit 1)
 				)
 			)
@@ -21085,7 +23365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc0124d8-0621-4ef1-84c3-32b1f7f7350f")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR084"
 			(at 138.43 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -21146,7 +23426,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR083")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -21163,7 +23443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc162001-4857-4fc1-a867-7d9da4da0258")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR097"
 			(at 281.94 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -21224,7 +23504,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0102")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -21241,7 +23521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd3d455a-4448-4ed7-9c5d-da036e049ca7")
-		(property "Reference" "R63"
+		(property "Reference" "R35"
 			(at 85.09 120.396 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21303,7 +23583,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R63")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -21320,7 +23600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bddb8fb7-23a5-4784-96b1-fff99ec7d4fe")
-		(property "Reference" "R61"
+		(property "Reference" "R33"
 			(at 85.09 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21382,7 +23662,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R61")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -21399,7 +23679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be561bc9-5106-4a5b-80a8-4a3baa946b93")
-		(property "Reference" "R41"
+		(property "Reference" "R45"
 			(at 100.33 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21461,7 +23741,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R41")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -21479,7 +23759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1429499-4ebb-4a00-844d-fe13367ce170")
-		(property "Reference" "Q7_H1"
+		(property "Reference" "Q10_H1"
 			(at 118.11 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21501,7 +23781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 116.84 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -21594,7 +23874,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q7_H1")
+					(reference "Q10_H1")
 					(unit 1)
 				)
 			)
@@ -21611,7 +23891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1d3e2c9-ad01-4d6a-aee7-4af296caba67")
-		(property "Reference" "R97"
+		(property "Reference" "R88"
 			(at 275.59 190.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21673,7 +23953,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R97")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -21690,7 +23970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3fbfaf2-d12c-41bb-b20b-ce6479796318")
-		(property "Reference" "R76"
+		(property "Reference" "R62"
 			(at 267.97 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21752,7 +24032,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R76")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -21770,7 +24050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c60499b7-2d79-4cc5-a8b6-1e4259acde40")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR047"
 			(at 33.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -21831,7 +24111,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0128")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -21849,7 +24129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a8f14a-7b78-4fff-85bf-6b1adeb79ea9")
-		(property "Reference" "Q16_L1"
+		(property "Reference" "Q1_L1"
 			(at 307.34 220.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21871,7 +24151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -21964,7 +24244,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q16_L1")
+					(reference "Q1_L1")
 					(unit 1)
 				)
 			)
@@ -21981,7 +24261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd0f79eb-448b-4924-b032-40162564e467")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0107"
 			(at 331.47 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -22042,7 +24322,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR034")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -22059,7 +24339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce013528-fbca-480b-ab43-7c32812fe26b")
-		(property "Reference" "R62"
+		(property "Reference" "R34"
 			(at 85.09 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22121,7 +24401,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R62")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -22139,7 +24419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce800bf9-6ad7-4012-9852-ddea4ad98217")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR052"
 			(at 33.02 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -22200,7 +24480,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0133")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -22217,7 +24497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfa76552-e204-4b8b-85be-69a1e9648691")
-		(property "Reference" "R68"
+		(property "Reference" "R40"
 			(at 85.09 191.516 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22279,7 +24559,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R68")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -22296,7 +24576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cff633c3-750b-4bca-ae66-77628a262f83")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0100"
 			(at 281.94 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -22357,7 +24637,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0105")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -22375,7 +24655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1181030-b456-4a25-b794-419895898424")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR053"
 			(at 33.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -22436,7 +24716,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0134")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -22453,7 +24733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3f984c3-4426-49a8-b3eb-421c7fee09e2")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR087"
 			(at 138.43 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -22514,7 +24794,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR089")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -22531,7 +24811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d41124b2-1d8e-4eb0-b0c2-1037684ca26e")
-		(property "Reference" "R88"
+		(property "Reference" "R68"
 			(at 267.97 135.636 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22593,7 +24873,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R88")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -22610,7 +24890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7a82131-5b19-4893-bbd0-46ef3a5af3f2")
-		(property "Reference" "R91"
+		(property "Reference" "R85"
 			(at 275.59 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22672,7 +24952,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R91")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -22689,7 +24969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d965c451-5eed-468c-932c-539d5c1ebd21")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR079"
 			(at 106.68 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -22750,7 +25030,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR088")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -22768,7 +25048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db23ef31-018b-4723-a883-a9c3df265a47")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR056"
 			(at 33.02 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -22829,7 +25109,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0137")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -22846,7 +25126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db8a1997-bf02-4997-9219-bee1f15ad64a")
-		(property "Reference" "R67"
+		(property "Reference" "R39"
 			(at 85.09 171.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22908,7 +25188,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R67")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -22925,7 +25205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc461805-d029-4164-a5c8-1700db29dfa6")
-		(property "Reference" "R55"
+		(property "Reference" "R59"
 			(at 132.08 225.806 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22987,7 +25267,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R55")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -23004,7 +25284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc67e18a-66e2-4a2e-8586-e5c71b801469")
-		(property "Reference" "R27"
+		(property "Reference" "R16"
 			(at 45.72 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23066,7 +25346,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R27")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -23083,7 +25363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd499435-b99e-49d8-9cbc-c62542c3da35")
-		(property "Reference" "R38"
+		(property "Reference" "R27"
 			(at 45.72 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23145,7 +25425,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R38")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -23163,7 +25443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "decdcf63-ded2-4a34-b063-00fc2eac1ff9")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR046"
 			(at 33.02 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -23224,7 +25504,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0127")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -23242,7 +25522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1b505ff-8b2d-41a7-8691-76c139d78a5d")
-		(property "Reference" "Q1_H1"
+		(property "Reference" "Q16_H1"
 			(at 118.11 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23264,7 +25544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 116.84 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -23357,7 +25637,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q1_H1")
+					(reference "Q16_H1")
 					(unit 1)
 				)
 			)
@@ -23375,7 +25655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ddc013-410d-4e6b-bdc3-ee74c8d7f0d3")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR067"
 			(at 63.5 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -23436,7 +25716,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR049")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -23453,7 +25733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1fc753c-7aa0-41cb-bb25-4bc025e2a8f2")
-		(property "Reference" "R29"
+		(property "Reference" "R18"
 			(at 45.72 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23515,7 +25795,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R29")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -23533,7 +25813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e45d4fc4-d80f-424f-880e-6611346a5532")
-		(property "Reference" "Q6_H1"
+		(property "Reference" "Q11_H1"
 			(at 149.86 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23555,7 +25835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -23648,7 +25928,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q6_H1")
+					(reference "Q11_H1")
 					(unit 1)
 				)
 			)
@@ -23666,7 +25946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4e3a2df-058c-4083-afd2-0ef0972beccf")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR061"
 			(at 63.5 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -23727,7 +26007,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR038")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -23745,7 +26025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e558c2f3-cf89-4eb2-9610-a5d525c2f8f3")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR063"
 			(at 63.5 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -23806,7 +26086,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR045")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -23823,7 +26103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e68ec85c-4e6a-4cde-9fd8-e5fa83325f8f")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR094"
 			(at 281.94 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -23884,7 +26164,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR099")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -23902,7 +26182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6d27727-58cc-45ba-abd6-c8c6a871f53b")
-		(property "Reference" "Q8_L1"
+		(property "Reference" "Q9_L1"
 			(at 307.34 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23924,7 +26204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -24017,7 +26297,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q8_L1")
+					(reference "Q9_L1")
 					(unit 1)
 				)
 			)
@@ -24034,7 +26314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7fa8cbe-8789-49b2-be90-a0952f246814")
-		(property "Reference" "R42"
+		(property "Reference" "R53"
 			(at 132.08 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24096,7 +26376,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R42")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -24114,7 +26394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ffb249-c94c-4963-ab8b-a561162e17c4")
-		(property "Reference" "Q3_L1"
+		(property "Reference" "Q14_L1"
 			(at 307.34 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24136,7 +26416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -24229,7 +26509,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q3_L1")
+					(reference "Q14_L1")
 					(unit 1)
 				)
 			)
@@ -24247,7 +26527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8b3ccb7-b53a-4e18-b9df-ac8b63f597a1")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR069"
 			(at 63.5 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -24308,7 +26588,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR051")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -24326,7 +26606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e984aeb2-6c34-40a2-9ee6-f38f5fbfeff8")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR051"
 			(at 33.02 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -24387,7 +26667,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0132")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -24405,7 +26685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb04efa4-7e10-46c0-8833-730be071f348")
-		(property "Reference" "Q9_H1"
+		(property "Reference" "Q8_H1"
 			(at 118.11 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24427,7 +26707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 116.84 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -24520,7 +26800,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q9_H1")
+					(reference "Q8_H1")
 					(unit 1)
 				)
 			)
@@ -24538,7 +26818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd8f339-4c7b-473d-8097-cd5eb79c288c")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR057"
 			(at 33.02 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -24599,7 +26879,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0138")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -24616,7 +26896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed067bc6-272a-4e43-a715-506fcc3f2b78")
-		(property "Reference" "R80"
+		(property "Reference" "R64"
 			(at 267.97 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24678,7 +26958,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R80")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -24696,7 +26976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed51ae3b-17dc-40b4-93d6-bb283f97ca73")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR060"
 			(at 63.5 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -24757,7 +27037,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR037")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -24775,7 +27055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee63beae-118c-406e-a22e-8b36a60c6a0f")
-		(property "Reference" "J13"
+		(property "Reference" "J17"
 			(at 205.74 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24842,7 +27122,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "J13")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -24860,7 +27140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1aa3155-aa02-488b-8da4-7d6d53abc478")
-		(property "Reference" "Q11_L1"
+		(property "Reference" "Q6_L1"
 			(at 307.34 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24882,7 +27162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 306.07 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -24975,7 +27255,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q11_L1")
+					(reference "Q6_L1")
 					(unit 1)
 				)
 			)
@@ -24993,7 +27273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ea43f6-2b60-4565-ab16-17fda2282cbe")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 59.69 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25146,7 +27426,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -25163,7 +27443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1f3e820-f99a-4886-89da-4023f515cd05")
-		(property "Reference" "R89"
+		(property "Reference" "R84"
 			(at 275.59 139.446 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25225,7 +27505,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R89")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -25242,7 +27522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f481c61e-5186-4065-b816-02d943bca6c9")
-		(property "Reference" "R103"
+		(property "Reference" "R91"
 			(at 275.59 228.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25304,7 +27584,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R103")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -25321,7 +27601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5b32552-8346-4378-a578-53453dc3184e")
-		(property "Reference" "R32"
+		(property "Reference" "R21"
 			(at 45.72 138.938 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25383,7 +27663,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R32")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -25401,7 +27681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f72167d5-0b55-46b1-b854-2f7d1cee431f")
-		(property "Reference" "Q11_H1"
+		(property "Reference" "Q6_H1"
 			(at 118.11 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25423,7 +27703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 116.84 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -25516,7 +27796,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q11_H1")
+					(reference "Q6_H1")
 					(unit 1)
 				)
 			)
@@ -25533,7 +27813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fada908e-d2af-4d81-b2f4-9cbaa79ab498")
-		(property "Reference" "R34"
+		(property "Reference" "R23"
 			(at 45.72 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25595,7 +27875,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "R34")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -25613,7 +27893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbf4e6c2-3979-469c-bf1d-9b311289aeb2")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR064"
 			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -25674,7 +27954,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR046")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -25692,7 +27972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fde07332-69e9-4520-a4c2-e88014391d34")
-		(property "Reference" "Q3_H1"
+		(property "Reference" "Q14_H1"
 			(at 118.11 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25714,7 +27994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Aktive_Bal_Footprints:8-WDFN"
+		(property "Footprint" "Aktive_Bal_Footprints:TRANS_NVTFS5116PLTAG"
 			(at 116.84 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -25807,7 +28087,7 @@
 		(instances
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "Q3_H1")
+					(reference "Q14_H1")
 					(unit 1)
 				)
 			)

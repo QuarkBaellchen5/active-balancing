@@ -4120,7 +4120,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 22.86 10.16 0)
+			(at 14.986 -4.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4130,7 +4130,7 @@
 			)
 		)
 		(property "Value" "RFP12N10L"
-			(at 22.86 7.62 0)
+			(at 20.32 -7.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4140,7 +4140,7 @@
 			)
 		)
 		(property "Footprint" "TO-220AB_ONS"
-			(at 0 0 0)
+			(at 0.508 -0.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -4152,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" "RFP12N10L"
-			(at 0 0 0)
+			(at 0.508 -0.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -4209,10 +4209,10 @@
 		(symbol "RFP12N10L_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -7.62)
+					(xy 7.874 -5.715) (xy 7.874 -9.525)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -4221,10 +4221,10 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -7.62) (xy 38.1 -7.62)
+					(xy 7.874 -7.62) (xy 5.08 -7.62)
 				)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4233,10 +4233,10 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 5.08) (xy 7.62 5.08)
+					(xy 8.382 -5.334) (xy 8.382 -6.35)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -4245,20 +4245,139 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -7.62) (xy 38.1 5.08)
+					(xy 8.382 -7.112) (xy 8.382 -8.128)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 7.62)
-				(name "GATE"
+			(polyline
+				(pts
+					(xy 8.382 -8.89) (xy 8.382 -9.906)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.382 -9.398) (xy 10.922 -9.398) (xy 10.922 -5.842) (xy 8.382 -5.842)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.636 -7.62) (xy 9.652 -7.239) (xy 9.652 -8.001) (xy 8.636 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 9.271 -7.62)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -5.08) (xy 10.16 -5.842)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 10.16 -5.842)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 10.16 -9.398)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -10.16) (xy 10.16 -7.62) (xy 8.382 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.414 -7.112) (xy 10.541 -7.239) (xy 11.303 -7.239) (xy 11.43 -7.366)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.922 -7.239) (xy 10.541 -7.874) (xy 11.303 -7.874) (xy 10.922 -7.239)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RFP12N10L_1_1"
+			(pin passive line
+				(at 2.54 -7.62 0)
+				(length 2.54)
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4273,10 +4392,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 45.72 -2.54 180)
-				(length 7.62)
-				(name "DRAIN"
+			(pin passive line
+				(at 10.16 -2.54 270)
+				(length 2.54)
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4291,10 +4410,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 45.72 0 180)
-				(length 7.62)
-				(name "SOURCE"
+			(pin passive line
+				(at 10.16 -12.7 90)
+				(length 2.54)
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)

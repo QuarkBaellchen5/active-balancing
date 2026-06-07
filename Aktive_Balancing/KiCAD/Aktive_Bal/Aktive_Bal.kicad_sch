@@ -6926,12 +6926,6 @@
 		(uuid "03f7be98-9083-4070-9640-a63b4e96d30b")
 	)
 	(junction
-		(at 172.72 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04b2c3b0-de0c-47ad-b95b-f5e2a648c07d")
-	)
-	(junction
 		(at 199.39 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7339,6 +7333,12 @@
 		(color 0 0 0 0)
 		(uuid "fa6f8ac6-4581-43c4-a9bd-6b8929a66bec")
 	)
+	(junction
+		(at 171.45 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffa8fb49-793c-43ca-9fc6-eaee35bbe1cf")
+	)
 	(no_connect
 		(at 45.72 121.92)
 		(uuid "24b65693-343c-42ea-b127-e502aa0ae904")
@@ -7525,16 +7525,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 114.3) (xy 172.72 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1910ff0a-6905-4378-9d1f-5161f59c5361")
-	)
-	(wire
-		(pts
 			(xy 158.75 83.82) (xy 158.75 85.09)
 		)
 		(stroke
@@ -7595,7 +7585,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 30.48) (xy 172.72 30.48)
+			(xy 158.75 30.48) (xy 171.45 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7795,13 +7785,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 172.72 107.95)
+			(xy 171.45 43.18) (xy 171.45 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30356b82-808f-4e86-aeb4-78dcd29adfe5")
+		(uuid "2ff96f7b-4633-4b52-982a-813f33db869d")
 	)
 	(wire
 		(pts
@@ -8002,6 +7992,16 @@
 			(type default)
 		)
 		(uuid "45fbb1f4-e60c-4ac0-9f20-1546f12029a4")
+	)
+	(wire
+		(pts
+			(xy 171.45 30.48) (xy 172.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bb36f1-c4bb-4096-945e-5b279c0d73d3")
 	)
 	(wire
 		(pts
@@ -8612,16 +8612,6 @@
 			(type default)
 		)
 		(uuid "978ef425-f535-4d72-974d-a64f332ebdd9")
-	)
-	(wire
-		(pts
-			(xy 172.72 35.56) (xy 172.72 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "990db419-95d0-405c-b01e-895f6bcf02fa")
 	)
 	(wire
 		(pts
@@ -9455,6 +9445,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 43.18) (xy 171.45 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5ca338-7bb9-4d50-9614-4e2bc07d7f42")
+	)
+	(wire
+		(pts
 			(xy 64.77 88.9) (xy 64.77 93.98)
 		)
 		(stroke
@@ -9571,7 +9571,7 @@
 	)
 	(global_label "B13"
 		(shape output)
-		(at 256.54 170.18 0)
+		(at 256.54 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9581,7 +9581,7 @@
 		)
 		(uuid "1ea4173c-8ff5-4376-a769-5f68f2119f5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2142 170.18 0)
+			(at 263.2142 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9835,7 +9835,7 @@
 	)
 	(global_label "B14"
 		(shape output)
-		(at 256.54 172.72 0)
+		(at 256.54 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9845,7 +9845,7 @@
 		)
 		(uuid "34bb727f-bf8e-4044-9c2d-a5e9e4959154")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2142 172.72 0)
+			(at 263.2142 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9883,7 +9883,7 @@
 	)
 	(global_label "B12"
 		(shape output)
-		(at 256.54 167.64 0)
+		(at 256.54 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9893,7 +9893,7 @@
 		)
 		(uuid "3c5b7527-4adb-4928-8fd6-5ae169281745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2142 167.64 0)
+			(at 263.2142 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10003,7 +10003,7 @@
 	)
 	(global_label "B11"
 		(shape output)
-		(at 256.54 165.1 0)
+		(at 256.54 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10013,7 +10013,7 @@
 		)
 		(uuid "58464011-a707-4b0d-aaaa-155bbd381928")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2142 165.1 0)
+			(at 263.2142 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10121,6 +10121,30 @@
 			)
 		)
 	)
+	(global_label "BAT+"
+		(shape input)
+		(at 45.72 49.53 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72122e94-13ed-48f4-945a-f78657646c9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 57.4138 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SCL3.3"
 		(shape input)
 		(at 279.4494 111.76 180)
@@ -10195,7 +10219,7 @@
 	)
 	(global_label "B16"
 		(shape output)
-		(at 256.54 177.8 0)
+		(at 256.54 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10205,7 +10229,7 @@
 		)
 		(uuid "9b0bbdb5-01d5-46cc-b75e-79d67ba856fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2142 177.8 0)
+			(at 263.2142 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10315,7 +10339,7 @@
 	)
 	(global_label "B15"
 		(shape output)
-		(at 256.54 175.26 0)
+		(at 256.54 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10325,7 +10349,7 @@
 		)
 		(uuid "b03af87a-ef57-45df-8f7c-3074b42ae106")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2142 175.26 0)
+			(at 263.2142 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10411,7 +10435,7 @@
 	)
 	(global_label "B10"
 		(shape output)
-		(at 256.54 162.56 0)
+		(at 256.54 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10421,7 +10445,7 @@
 		)
 		(uuid "d1bd2a7d-0a7b-46c9-8b43-555fc6523328")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2142 162.56 0)
+			(at 263.2142 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10435,7 +10459,7 @@
 	)
 	(global_label "B9"
 		(shape output)
-		(at 256.54 160.02 0)
+		(at 256.54 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10445,7 +10469,7 @@
 		)
 		(uuid "d5f3789e-dc1b-433b-bb1b-2b795592688a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.0047 160.02 0)
+			(at 262.0047 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14301,84 +14325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 172.72 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c3b4408-e428-44b6-b638-92fe54569611")
-		(property "Reference" "#PWR019"
-			(at 172.72 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_float2"
-			(at 172.72 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e643134-f5e7-4c2f-9c2a-17fcc235aae7")
-		)
-		(instances
-			(project "Aktive_Bal"
-				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
 		(at 298.45 88.9 0)
 		(unit 1)
@@ -18022,83 +17968,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 177.8 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab0e673e-a217-42ac-aa93-89c16811114c")
-		(property "Reference" "#PWR021"
-			(at 177.8 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 180.086 107.696 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 177.8 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1a5bed2-5126-48d2-9e2e-f654f1049b49")
-		)
-		(instances
-			(project "Aktive_Bal"
-				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 242.57 96.52 0)
 		(unit 1)
@@ -18173,87 +18042,6 @@
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
 					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 172.72 110.49 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3184bf5-21dd-4ab2-86d6-73e11ec44292")
-		(property "Reference" "C13"
-			(at 174.498 110.4835 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1µ"
-			(at 174.498 113.0235 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 172.72 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b59309ea-effd-464a-a6d8-46e86e38e890")
-		)
-		(pin "2"
-			(uuid "22ea0356-cd34-4881-a93b-ccfc0d8c8717")
-		)
-		(instances
-			(project "Aktive_Bal"
-				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5"
-					(reference "C13")
 					(unit 1)
 				)
 			)

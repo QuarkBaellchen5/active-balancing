@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BM107_Labor_Lib") (type "KiCad") (uri "${KIPRJMOD}/BM107_Labor_Lib.kicad_sym") (options "") (descr ""))
+)

@@ -3401,42 +3401,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -3466,60 +3430,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4523,7 +4433,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -3.81 0)
 				(length 2.54)
 				(name "-Vin"
@@ -4541,7 +4451,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -6.35 0)
 				(length 2.54)
 				(name "-Vin"
@@ -4559,7 +4469,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at -2.54 -8.89 0)
 				(length 2.54)
 				(name ""
@@ -4577,7 +4487,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at -2.54 -11.43 0)
 				(length 2.54)
 				(name ""
@@ -4631,7 +4541,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -13.97 0)
 				(length 2.54)
 				(name "+Vin"
@@ -4649,7 +4559,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 -16.51 0)
 				(length 2.54)
 				(name "+Vin"

@@ -210,7 +210,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -508,7 +510,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -519,26 +521,26 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.6,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 1.0,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "clearance": 0.4,
-        "diff_pair_gap": 0.3,
-        "diff_pair_width": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "PowerGND",
+        "name": "analog",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
+        "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.5
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.4,
@@ -548,12 +550,27 @@
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
+        "track_width": 1.25,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.5
+      },
+      {
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -567,17 +584,143 @@
       "+3.3V": [
         "power"
       ],
+      "+3.3Vµ": [
+        "power"
+      ],
       "+5V": [
         "power"
       ],
       "-5V": [
         "power"
       ],
+      "B1": [
+        "signal"
+      ],
+      "B10": [
+        "signal"
+      ],
+      "B11": [
+        "signal"
+      ],
+      "B12": [
+        "signal"
+      ],
+      "B13": [
+        "signal"
+      ],
+      "B14": [
+        "signal"
+      ],
+      "B15": [
+        "signal"
+      ],
+      "B16": [
+        "signal"
+      ],
+      "B2": [
+        "signal"
+      ],
+      "B3": [
+        "signal"
+      ],
+      "B4": [
+        "signal"
+      ],
+      "B5": [
+        "signal"
+      ],
+      "B6": [
+        "signal"
+      ],
+      "B7": [
+        "signal"
+      ],
+      "B8": [
+        "signal"
+      ],
+      "B9": [
+        "signal"
+      ],
+      "BAT+": [
+        "power"
+      ],
       "Bal": [
         "power"
       ],
+      "Bat_GND": [
+        "power"
+      ],
+      "CANH": [
+        "signal"
+      ],
+      "CANL": [
+        "signal"
+      ],
+      "Cell0": [
+        "power"
+      ],
+      "Cell1": [
+        "power"
+      ],
+      "Cell10": [
+        "power"
+      ],
+      "Cell11": [
+        "power"
+      ],
+      "Cell12": [
+        "power"
+      ],
+      "Cell13": [
+        "power"
+      ],
+      "Cell14": [
+        "power"
+      ],
+      "Cell15": [
+        "power"
+      ],
+      "Cell16": [
+        "power"
+      ],
+      "Cell2": [
+        "power"
+      ],
+      "Cell3": [
+        "power"
+      ],
+      "Cell4": [
+        "power"
+      ],
+      "Cell5": [
+        "power"
+      ],
+      "Cell6": [
+        "power"
+      ],
+      "Cell7": [
+        "power"
+      ],
+      "Cell8": [
+        "power"
+      ],
+      "Cell9": [
+        "power"
+      ],
+      "D": [
+        "signal"
+      ],
       "GND_float2": [
         "power"
+      ],
+      "GNDµ": [
+        "power"
+      ],
+      "I_Bal": [
+        "analog"
+      ],
+      "I_Bal_Soll": [
+        "analog"
       ],
       "Net-(C2-Pad1)": [
         "power"
@@ -585,7 +728,16 @@
       "Net-(C2-Pad2)": [
         "power"
       ],
+      "Net-(C6-Pad1)": [
+        "power"
+      ],
+      "Net-(C6-Pad2)": [
+        "power"
+      ],
       "Net-(D1-K)": [
+        "power"
+      ],
+      "Net-(J1-Pin_1)": [
         "power"
       ],
       "Net-(J16-Pin_1)": [
@@ -594,11 +746,227 @@
       "Net-(J16-Pin_2)": [
         "power"
       ],
+      "Net-(J2-SHIELD)": [
+        "power"
+      ],
       "Net-(J4-Pin_1)": [
+        "power"
+      ],
+      "Net-(Q1-D)": [
+        "analog"
+      ],
+      "Net-(Q1-S)": [
+        "analog"
+      ],
+      "Net-(Q10_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q10_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q10_L1-S-Pad1)": [
+        "power"
+      ],
+      "Net-(Q11_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q11_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q12_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q12_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q13_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q13_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q14_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q14_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q15_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q15_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q16_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q16_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q1_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q1_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q2_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q2_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q3_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q3_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q4_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q4_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q5_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q5_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q6_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q6_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q7_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q7_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q8_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q8_L1-G)": [
+        "signal"
+      ],
+      "Net-(Q9_H1-G)": [
+        "signal"
+      ],
+      "Net-(Q9_L1-G)": [
+        "signal"
+      ],
+      "Net-(R28-Pad1)": [
+        "signal"
+      ],
+      "Net-(R29-Pad1)": [
+        "signal"
+      ],
+      "Net-(R30-Pad1)": [
+        "signal"
+      ],
+      "Net-(R31-Pad1)": [
+        "signal"
+      ],
+      "Net-(R32-Pad1)": [
+        "signal"
+      ],
+      "Net-(R33-Pad1)": [
+        "signal"
+      ],
+      "Net-(R34-Pad1)": [
+        "signal"
+      ],
+      "Net-(R35-Pad1)": [
+        "signal"
+      ],
+      "Net-(R36-Pad1)": [
+        "signal"
+      ],
+      "Net-(R37-Pad1)": [
+        "signal"
+      ],
+      "Net-(R38-Pad1)": [
+        "signal"
+      ],
+      "Net-(R39-Pad1)": [
+        "signal"
+      ],
+      "Net-(R40-Pad1)": [
+        "signal"
+      ],
+      "Net-(R41-Pad1)": [
+        "signal"
+      ],
+      "Net-(R42-Pad1)": [
+        "signal"
+      ],
+      "Net-(R43-Pad1)": [
+        "signal"
+      ],
+      "Net-(R96-Pad2)": [
+        "analog"
+      ],
+      "Net-(U1-D)": [
         "power"
       ],
       "Net-(U13-D)": [
         "power"
+      ],
+      "Net-(U14A-+)": [
+        "analog"
+      ],
+      "Net-(U14A--)": [
+        "analog"
+      ],
+      "Net-(U14B--)": [
+        "analog"
+      ],
+      "Net-(U14C-+)": [
+        "analog"
+      ],
+      "Net-(U14C--)": [
+        "analog"
+      ],
+      "Net-(U14D-+)": [
+        "analog"
+      ],
+      "Net-(U14D--)": [
+        "analog"
+      ],
+      "Net-(U15-VIN)": [
+        "power"
+      ],
+      "Net-(U5-EN)": [
+        "power"
+      ],
+      "R": [
+        "signal"
+      ],
+      "SCL3.3": [
+        "signal"
+      ],
+      "SCL5": [
+        "signal"
+      ],
+      "SCLµC": [
+        "signal"
+      ],
+      "SDA3.3": [
+        "signal"
+      ],
+      "SDA5": [
+        "signal"
+      ],
+      "SDAµC": [
+        "signal"
+      ],
+      "V_I_Bal": [
+        "analog"
+      ],
+      "unconnected-(U7-*INT-Pad1)": [
+        "signal"
       ]
     },
     "netclass_patterns": []
@@ -785,7 +1153,7 @@
         "uuid": "7c40c112-cd2b-4a48-9744-14a65613b3b5"
       }
     ],
-    "used_designators": "J7-8,J10-14",
+    "used_designators": "#PWR43-108,Q6_L1,Q11_H1,J12-17,Q7_L1,Q10_H1,Q7_H1,Q10_L1,Q6_H1,Q11_L1,Q12_H1,Q12_L1,Q13_H1,Q13_L1,Q14_H1,Q14_L1,Q15_H1,Q15_L1,Q9_L1,Q16_H1,Q9_H1,Q16_L1,U10-13,Q1_H1,Q1_L1,Q2_H1,Q2_L1,Q3_H1,Q3_L1,Q4_H1,Q4_L1,Q5_H1,Q5_L1,Q8_H1,Q8_L1,R12-92",
     "variants": []
   },
   "sheets": [

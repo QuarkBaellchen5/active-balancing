@@ -1165,7 +1165,7 @@
         "uuid": "7c40c112-cd2b-4a48-9744-14a65613b3b5"
       }
     ],
-    "used_designators": "J1-24,R1-104,#FLG1-7,L1-2,Q8_H1,D1,#PWR1-126,C1-31,Q4_H1,JP1-9,FL1,Q1_L1,Q1,Q7_L1,Q10_H1,Q7_H1,Q10_L1,Q6_L1,Q11_H1,Q6_H1,Q11_L1,Q12_H1,Q12_L1,Q13_H1,Q13_L1,Q14_H1,Q14_L1,Q15_H1,Q15_L1,Q9_L1,Q16_H1,Q9_H1,Q16_L1,U1-15,Q1_H1,Q2_H1,Q2_L1,Q3_H1,Q3_L1,Q4_L1,Q5_H1,Q5_L1,Q8_L1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -334,7 +334,7 @@
 		(symbol "LT1999-50_0_1"
 			(rectangle
 				(start -7.62 7.62)
-				(end 6.985 -5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin power_in line
-				(at 9.525 -2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -455,7 +455,7 @@
 				)
 			)
 			(pin input line
-				(at 9.525 0 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "REF"
 					(effects
@@ -492,7 +492,7 @@
 				)
 			)
 			(pin output line
-				(at 9.525 2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -510,7 +510,7 @@
 				)
 			)
 			(pin input line
-				(at 9.525 5.08 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "~{SHDN}"
 					(effects

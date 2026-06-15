@@ -6973,7 +6973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+		(property "Footprint" "Aktive_Bal_Footprints:LM2596_5T"
 			(at 191.77 77.47 0)
 			(hide yes)
 			(show_name no)

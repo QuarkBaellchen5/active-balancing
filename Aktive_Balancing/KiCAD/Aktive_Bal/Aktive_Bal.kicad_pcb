@@ -52578,7 +52578,7 @@
 		)
 	)
 	(gr_text "OPV mit Regelkreis\n"
-		(at 98.31 121.748 0)
+		(at 95.25 115.5 0)
 		(layer "Cmts.User")
 		(uuid "bd62bd1c-59a4-48e0-a7ff-e7fe19e56564")
 		(effects

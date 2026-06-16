@@ -10287,7 +10287,7 @@
 	)
 	(global_label "SCL5"
 		(shape input)
-		(at 237.49 96.52 180)
+		(at 237.49 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10297,7 +10297,7 @@
 		)
 		(uuid "14bc3e77-9c90-41b7-b780-d58af0ba922a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.7877 96.52 0)
+			(at 229.7877 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10695,7 +10695,7 @@
 	)
 	(global_label "SDA5"
 		(shape input)
-		(at 237.49 87.63 180)
+		(at 237.49 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10705,7 +10705,7 @@
 		)
 		(uuid "41f02582-2a0f-495f-9dc6-3e066068444f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.7272 87.63 0)
+			(at 229.7272 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10839,7 +10839,7 @@
 	)
 	(global_label "SCL3.3"
 		(shape input)
-		(at 247.65 96.52 0)
+		(at 247.65 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10849,7 +10849,7 @@
 		)
 		(uuid "6d082459-a644-426b-b720-6b4f7f16a28b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.1666 96.52 0)
+			(at 257.1666 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11343,7 +11343,7 @@
 	)
 	(global_label "SDA3.3"
 		(shape input)
-		(at 247.65 87.63 0)
+		(at 247.65 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11353,7 +11353,7 @@
 		)
 		(uuid "f708dd56-6757-4796-b1ad-727f50cd5fb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.2271 87.63 0)
+			(at 257.2271 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19536,7 +19536,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 242.57 96.52 0)
+		(at 242.57 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19547,7 +19547,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae89704e-868e-4dbd-8906-8a1c8d947a7c")
 		(property "Reference" "JP7"
-			(at 242.57 90.17 0)
+			(at 242.57 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19557,7 +19557,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 242.57 92.71 0)
+			(at 242.57 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19567,7 +19567,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 242.57 96.52 0)
+			(at 242.57 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19578,7 +19578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 96.52 0)
+			(at 242.57 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19589,7 +19589,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 242.57 96.52 0)
+			(at 242.57 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19970,7 +19970,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 242.57 87.63 0)
+		(at 242.57 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19981,7 +19981,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc214ad0-ac0a-4910-b97c-21e00d69d18b")
 		(property "Reference" "JP6"
-			(at 242.57 81.28 0)
+			(at 242.57 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19991,7 +19991,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 242.57 83.82 0)
+			(at 242.57 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20001,7 +20001,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 242.57 87.63 0)
+			(at 242.57 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20012,7 +20012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 87.63 0)
+			(at 242.57 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20023,7 +20023,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 242.57 87.63 0)
+			(at 242.57 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -52577,10 +52577,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OPV mit Regelkreis\n"
-		(at 95.25 115.5 0)
+	(gr_text "I2C-Kram"
+		(at 111.745 107.385 0)
 		(layer "Cmts.User")
-		(uuid "bd62bd1c-59a4-48e0-a7ff-e7fe19e56564")
+		(uuid "d72deca4-2e9d-4a83-94b7-66d9f84ab3b7")
 		(effects
 			(font
 				(size 1 1)
@@ -52589,10 +52589,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "I2C-Kram"
-		(at 111.745 107.385 0)
+	(gr_text "OPV mit Regelkreis\n"
+		(at 141 115.5 0)
 		(layer "Cmts.User")
-		(uuid "d72deca4-2e9d-4a83-94b7-66d9f84ab3b7")
+		(uuid "bd62bd1c-59a4-48e0-a7ff-e7fe19e56564")
 		(effects
 			(font
 				(size 1 1)

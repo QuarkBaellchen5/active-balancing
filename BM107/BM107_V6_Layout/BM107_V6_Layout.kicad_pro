@@ -501,20 +501,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "CANH": [
-        "signal"
-      ],
-      "CANL": [
-        "signal"
-      ],
-      "RX": [
-        "signal"
-      ],
-      "TX": [
-        "signal"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -645,7 +632,7 @@
         "uuid": "160d15a2-4a54-4a04-add2-ae6ecbb41248"
       }
     ],
-    "used_designators": "U1,C20-21",
+    "used_designators": "D1-8,#PWR1-36,C1-35,#FLG1-4,R1-24,J1-8,JP1,Q1-4,U1-10",
     "variants": []
   },
   "sheets": [
@@ -664,10 +651,6 @@
     [
       "4c1a8778-342d-4b78-bb3f-0bf650e43a5b",
       "H_Bruecke"
-    ],
-    [
-      "d5f95f52-1587-4971-8448-ddca61e9373f",
-      "Bluepill"
     ]
   ],
   "text_variables": {},

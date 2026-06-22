@@ -987,7 +987,8 @@
         "signal"
       ],
       "V_I_Bal": [
-        "analog"
+        "analog",
+        "power"
       ],
       "unconnected-(U7-*INT-Pad1)": [
         "signal"

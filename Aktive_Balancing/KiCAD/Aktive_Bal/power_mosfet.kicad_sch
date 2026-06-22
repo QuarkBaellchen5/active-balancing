@@ -15,27 +15,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -3.556 2.286 0)
+			(property "Reference" "R92"
+				(at -2.54 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "CMP-R100-1.0"
-				(at -10.668 4.572 0)
+				(at -2.54 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Aktive_Bal_Footprints:CMP-R100-1.0"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -169,42 +171,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name ""
@@ -214,7 +180,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3546,6 +3512,12 @@
 		(uuid "bfd91b7a-f567-4f33-8f46-9fb89e83609c")
 	)
 	(junction
+		(at 331.47 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c30204e7-a276-4940-9ede-afdf724bfea9")
+	)
+	(junction
 		(at 271.78 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5275,7 +5247,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 234.95) (xy 337.82 234.95)
+			(xy 331.47 232.41) (xy 335.28 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7095,7 +7067,7 @@
 	)
 	(global_label "V_I_Bal"
 		(shape output)
-		(at 337.82 234.95 0)
+		(at 335.28 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7105,7 +7077,7 @@
 		)
 		(uuid "5bc27ee4-7727-4387-ac7b-6c60c1e9eede")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.518 234.95 0)
+			(at 344.978 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13196,13 +13168,7 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "e394bd52-0dd6-4e8a-9d9e-b57e3cfb3201")
-		)
 		(pin "2"
-			(uuid "943c4226-230e-4dcc-aaeb-a7f7075a21ca")
-		)
-		(pin "4"
 			(uuid "eabf799a-bdee-4d92-9b64-1be42a4bbc65")
 		)
 		(pin "1"
@@ -14005,84 +13971,6 @@
 			(project "Aktive_Bal"
 				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 334.01 240.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d8a4f2a-da22-4adf-b387-8490cffcb54e")
-		(property "Reference" "#PWR0109"
-			(at 340.36 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_float2"
-			(at 337.566 240.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 334.01 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65d43442-9e23-454d-96a4-61278b541a27")
-		)
-		(instances
-			(project "Aktive_Bal"
-				(path "/7c40c112-cd2b-4a48-9744-14a65613b3b5/45fa0e45-d26c-4c22-a735-03b29ef7d197"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 			)

@@ -87,6 +87,191 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "Aktive_Bal_Footprints:Shunt_BVT-M-R0005"
+		(layer "F.Cu")
+		(uuid "00da86e4-27d3-4787-b9cc-f6e6c6988d83")
+		(at 87.001 109.712)
+		(property "Reference" "R26"
+			(at 0.254 -1.524 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5cae6f9f-63b6-43d4-971b-738d2806ee8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Shunt_BVT-M-R0005"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "778623a3-945e-43e5-8232-1d5664bf7ab0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8700071f-f556-471b-ab43-901440e4fe0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Shunt resistor with Kelvin connections"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e143aec-832d-4ae3-b033-ae06fc7f2013")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*Shunt*")
+		(path "/4c1a8778-342d-4b78-bb3f-0bf650e43a5b/22486d4f-9476-4eab-8d2a-60fdedcf9bb4")
+		(sheetname "/H_Bruecke/")
+		(sheetfile "H_Bruecke.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "2" "3")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.025 2)
+			(end 2.225 2)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.Cu")
+			(uuid "1fd4236e-5efb-4e7d-ad06-574f55d5451a")
+		)
+		(fp_line
+			(start 0 0.5)
+			(end 0 2)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.Cu")
+			(uuid "fac1b951-e625-45ae-9973-d77ce7b1ab8a")
+		)
+		(fp_line
+			(start 0 3)
+			(end 2.25 3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.Cu")
+			(uuid "6200a5ca-9bb4-4372-93f8-71decead7017")
+		)
+		(fp_line
+			(start 0 4.5)
+			(end 0 3)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.Cu")
+			(uuid "c3d93f66-ca8c-43eb-a0ac-15129b821af1")
+		)
+		(fp_rect
+			(start -1.651 -0.762)
+			(end 1.651 5.842)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c4fe7043-4aff-4059-859e-42ba9cb820d9")
+		)
+		(fp_circle
+			(center -1.143 1.017999)
+			(end -1.017999 1.017999)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4b277637-2740-4d88-b343-922ab7e12442")
+		)
+		(fp_rect
+			(start -1.651 -0.762)
+			(end 1.651 5.85)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c53630f1-5873-4547-9452-e6d0ab6d6ff8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3c931d35-5949-49c9-a6b8-083ab6750496")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 3 1.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "V_Motor-")
+			(pintype "passive")
+			(uuid "ecfce8f1-1b17-425e-98d3-2486bff3cad0")
+		)
+		(pad "2" smd circle
+			(at 2.25 2)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "IS-")
+			(pintype "passive")
+			(uuid "5ebae9b3-0759-45a6-b2da-4beef63d700d")
+		)
+		(pad "3" smd circle
+			(at 2.25 3)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "IS+")
+			(pintype "passive")
+			(uuid "6f91a41a-1c42-49cb-ad5d-3db84ef83ac8")
+		)
+		(pad "4" smd rect
+			(at 0 5.1)
+			(size 3 1.25)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(Q4-D)")
+			(pintype "passive")
+			(uuid "cfb5cd8c-6649-4ae3-9497-b84d25840ee1")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "01e2e077-8c56-4fd5-ad22-d78e0e8d904a")
@@ -14748,191 +14933,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Aktive_Bal_Footprints:CMP-R100-1.0"
-		(layer "F.Cu")
-		(uuid "a68d48f9-a858-4bed-96e8-b21993ada019")
-		(at 86.211 110.612)
-		(property "Reference" "R19"
-			(at 0.254 -1.524 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "70de6dc0-98ca-479c-96b9-924bde6e736b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "500u"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1679152d-98f5-4a5f-b7e4-e8e66540bb85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "58105a55-baa8-440a-8f4a-3d0238ef7eaa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Shunt resistor with Kelvin connections"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "33b6e776-ac96-4ed6-87df-8fd76c3850bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*Shunt*")
-		(path "/4c1a8778-342d-4b78-bb3f-0bf650e43a5b/eec84eb9-7731-434b-91ef-6076866277c9")
-		(sheetname "/H_Bruecke/")
-		(sheetfile "H_Bruecke.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "2" "3")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0 0.625)
-			(end 0 2)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "F.Cu")
-			(uuid "b6e491e3-ca05-4fa9-8719-9ca78b3785cf")
-		)
-		(fp_line
-			(start 0 2)
-			(end 2.25 2)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "F.Cu")
-			(uuid "75a4b220-9550-4d19-ab23-e271d4d33b8d")
-		)
-		(fp_line
-			(start 0 3)
-			(end 2.25 3)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "F.Cu")
-			(uuid "f230f9e6-4e5c-4d56-8d24-58a409b83d54")
-		)
-		(fp_line
-			(start 0 4.375)
-			(end 0 3)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "F.Cu")
-			(uuid "d0f93b60-8b48-4ae9-8342-52e3353e9a42")
-		)
-		(fp_rect
-			(start -1.651 -0.762)
-			(end 1.651 5.842)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "278afe59-d27f-4a19-a55e-8bd816f4d788")
-		)
-		(fp_circle
-			(center -1.143 1.017999)
-			(end -1.017999 1.017999)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "4d9ce487-63d5-4f0e-b4e2-cdfe8abc891c")
-		)
-		(fp_rect
-			(start -1.651 -0.762)
-			(end 1.651 5.715)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "44504739-6480-4244-b8cc-7613b91619ed")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1947238f-8391-46a4-b731-bed2336f1011")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at 0 0)
-			(size 3 1.25)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "V_Motor-")
-			(pintype "passive")
-			(uuid "a2638480-27a3-4712-80c5-a1d0bf850a4e")
-		)
-		(pad "2" smd circle
-			(at 2.25 2)
-			(size 0.3 0.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "IS-")
-			(pintype "passive")
-			(uuid "62778512-171c-4d7a-9011-5cd99a5d92ca")
-		)
-		(pad "3" smd circle
-			(at 2.25 3)
-			(size 0.3 0.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "IS+")
-			(pintype "passive")
-			(uuid "4a0eb2ce-e463-4caa-9799-3001ed0530bb")
-		)
-		(pad "4" smd rect
-			(at 0 5)
-			(size 3 1.25)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(Q4-D)")
-			(pintype "passive")
-			(uuid "db2b38b0-fba4-44cb-9ad2-f1bcc7e43d1e")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:CP_Elec_5x5.3"
 		(layer "F.Cu")

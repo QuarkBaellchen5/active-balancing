@@ -16,7 +16,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
+        "dimension_precision": 5,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -118,6 +118,10 @@
           "geht nicht anders"
         ],
         [
+          "clearance|193440000|58479111|7c541f72-234b-4e7d-a68c-a6be31c33be5|c9cb6ad0-64be-4112-9740-b3b120c8e35b",
+          "Footprintbedingt"
+        ],
+        [
           "clearance|193440000|63808985|b475d810-9d04-4de7-94ad-c2ef07e1caf6|4e53f131-8641-40a1-972a-87b474ce6e35",
           "geht nicht anders"
         ],
@@ -210,12 +214,8 @@
           "geht nicht anders"
         ],
         [
-          "silk_edge_clearance|127500000|19920000|74c017a7-ca77-4465-8096-12e3fd7248cc|e6eb5102-a479-41c9-a53a-4235b4d6288b",
-          "so gewollt"
-        ],
-        [
-          "silk_edge_clearance|127500000|50730000|74c017a7-ca77-4465-8096-12e3fd7248cc|36a1dbe9-569b-4acd-af7d-e12a26a7c0f0",
-          "so gewollt"
+          "lib_footprint_mismatch|144622778|103797232|2536afbc-1006-45e6-b360-36565d58da5d|00000000-0000-0000-0000-000000000000",
+          "Footprint nicht in Bibliothek geändert"
         ]
       ],
       "meta": {
@@ -297,7 +297,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.64,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,

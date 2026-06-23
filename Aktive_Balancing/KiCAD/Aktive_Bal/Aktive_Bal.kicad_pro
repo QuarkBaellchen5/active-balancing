@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 1.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -76,7 +76,152 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|177900000|36737500|23e4adcb-8a2b-4458-b005-e39800e2ad9d|07a6906c-e1ac-40c1-a90d-58f1dddd4bfc",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|178850000|36737500|4a9154a7-d9ea-4372-8b8c-77a61ce7f304|23e4adcb-8a2b-4458-b005-e39800e2ad9d",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|101118096|c70c5829-03d1-4227-bcb1-cdc5c2d4767b|7b86a7c4-4523-4277-98c7-e067620ba8e0",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|21170000|3a70a0c3-1008-4e8d-b098-81321ffd355a|10506b34-2287-469c-aa89-c9f27cb9c77a",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|26499873|1bb94163-19a7-4275-abda-18c0c2768fa5|0d028307-d9fd-46b1-8092-a1eb079b5a48",
+          "Geht nicht anders"
+        ],
+        [
+          "clearance|193440000|31829746|bdd8b792-d20b-4d9e-bdc4-f3e6eba3cdfc|080aeaca-f4ae-479e-b7a2-4e4b884e1da8",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|37159619|d0eab1a5-e3da-424a-a122-8739f0ea8fe2|3b57ba5a-d469-4b63-8cb6-cf4acff10715",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|42489492|1d3f66c2-d41f-4556-bf44-30c8a0b2637e|fc6ba945-9675-44ae-a02c-93205e6cb78f",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|47819365|544867ff-d813-421d-be0e-d5eb538bfa01|b18cd1a5-f7a5-4d58-99c2-06455f290c0b",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|53149238|315faf8c-59ba-4004-98eb-fa7c2d9ac836|74aa53a3-9554-47ba-9f13-7146c7d7e5ec",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|58479111|7c541f72-234b-4e7d-a68c-a6be31c33be5|c9cb6ad0-64be-4112-9740-b3b120c8e35b",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|63808985|b475d810-9d04-4de7-94ad-c2ef07e1caf6|4e53f131-8641-40a1-972a-87b474ce6e35",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|69138858|1f2a77bf-70ab-4718-8fbf-68f16e4a36c4|709cafde-0eb7-4f8a-b1e4-ab1e72fcffa6",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|74468731|a6a211a8-ca90-4a7d-abe7-7ac7d45e92f3|fd035341-315a-44b2-98ba-f5d24f6a79b8",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|79798604|bbcdf39a-6c04-4a14-9f38-92967c3274ee|850ae114-fe67-4c89-86a4-d7d0cf020389",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|85128477|eea47580-8a81-4f7c-b328-2252e6d7df80|763ed9ae-071b-46e5-a99c-fd020b58353a",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|90458350|15a6c4b6-9bad-48b7-82f0-2be1c0b5da8c|71c261d8-1681-427b-a212-5b35a5a9c85b",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|193440000|95788223|6de49f4e-2d36-42f2-baf8-af3b67525106|5cfe9969-9234-47ca-84be-2e3e1f27b3ec",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|101400000|45d13837-5c33-4edb-8646-9636e7be5a63|b8c43457-4bad-43bb-9fd1-91955a94e51b",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|21170000|1e940888-f6b0-44a5-a085-0754889316cf|431403d4-4a97-4c05-9db5-050251da110b",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|26518667|66d3c462-7186-489c-bc74-0961a7b745a9|d05b94e9-0ae0-4586-a380-6b1f58815f80",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|31867333|0e609a80-ead2-4a63-9eb3-aae472b9cd01|3b861ed9-5a15-49d4-a28e-6ba3a55346e8",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|37216000|029aa11a-ea5e-4dba-a46b-d47ac542b703|22bb636a-5b13-4db1-93b0-348e38929a49",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|42564667|1a28939e-2a79-46cd-af46-91254824c455|a9272a38-1761-4971-b1ca-ba72fb100535",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|47913333|26239cf4-d142-454d-9df9-a359dfdbfdd1|c5dba74a-73f4-497d-8758-9a47436ee0da",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|53262000|e88646f9-8d9c-4485-94ca-70c7f3f31fc3|fea5b77a-b413-4c94-a04b-d4c3415c95d0",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|58610667|a9a9f085-9a07-4040-83f5-0bfcf45904e6|f6d9570e-b8a7-4303-a96f-dc20f2cf1c7d",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|63959333|67801c7c-3cd3-46e6-88fb-c36e82b6a9d4|2ff97108-5be8-4105-9a69-b5ea627ca9d2",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|69308000|978f6a20-5ea4-45c1-a166-1a76404ec97c|46a4febe-356e-4615-a579-10be0cab161d",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|74656667|c101db95-d637-4994-b549-db851d8d535c|da52631d-9305-4ff8-bf64-18bb06ab3a05",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|80005333|03e5cadb-b8d1-4331-8674-efdb44aa17d0|ba3a855e-3895-40b2-ada1-a20f446bdc81",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|85354000|e2322268-b425-4807-9e87-cda57a8bed62|5da5de06-f614-47be-833f-33adea405143",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|90702667|5b7d520d-6c94-48cc-8720-fdd405c6fa67|1e8d310c-e5c6-4fca-aaeb-0c8a799da44e",
+          "geht nicht anders"
+        ],
+        [
+          "clearance|222440000|96051333|d87ef443-9943-4748-a605-850d954ea92d|81d9e506-7f8d-4e50-8e33-505f2b9f44ae",
+          "geht nicht anders"
+        ],
+        [
+          "silk_edge_clearance|127500000|19920000|74c017a7-ca77-4465-8096-12e3fd7248cc|e6eb5102-a479-41c9-a53a-4235b4d6288b",
+          "so gewollt"
+        ],
+        [
+          "silk_edge_clearance|127500000|50730000|74c017a7-ca77-4465-8096-12e3fd7248cc|36a1dbe9-569b-4acd-af7d-e12a26a7c0f0",
+          "so gewollt"
+        ]
+      ],
       "meta": {
         "version": 2
       },

@@ -24,7 +24,7 @@
       "lockedItems": true,
       "otherItems": true,
       "pads": true,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -96,18 +96,18 @@
       11
     ],
     "col_widths": [
-      51,
-      65,
-      79,
-      66,
       62,
-      93,
-      63,
       70,
-      33,
-      33,
-      43,
-      43
+      84,
+      72,
+      68,
+      100,
+      69,
+      76,
+      39,
+      40,
+      49,
+      49
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

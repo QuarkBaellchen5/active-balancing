@@ -2860,6 +2860,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Differenzspannung messen!!"
+		(exclude_from_sim no)
+		(at 147.574 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cafd0d0-b5fc-4604-8a89-a1b20ec8b307")
+	)
+	(junction
+		(at 119.38 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04295fa3-cf51-4404-94b2-59ae3c2ccb84")
+	)
 	(junction
 		(at 83.82 48.26)
 		(diameter 0)
@@ -3163,6 +3179,16 @@
 			(type default)
 		)
 		(uuid "3e044e0a-ad52-409a-8aea-0401bb5fafaa")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f683939-e3b2-4017-9f92-10726c0d0255")
 	)
 	(wire
 		(pts
@@ -3901,6 +3927,30 @@
 		(uuid "3605e31d-cb58-4d78-9886-30dd45b53a77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.048 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GNDShunt"
+		(shape input)
+		(at 133.35 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44ed731a-d1c1-4160-bac2-bf9e175f9454")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.5879 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

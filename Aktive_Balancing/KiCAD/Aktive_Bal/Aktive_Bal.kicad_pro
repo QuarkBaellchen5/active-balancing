@@ -859,6 +859,10 @@
       "D": [
         "signal"
       ],
+      "GNDShunt": [
+        "analog",
+        "power"
+      ],
       "GND_float2": [
         "power"
       ],

@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 1.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -212,6 +212,18 @@
         [
           "clearance|222440000|96051333|d87ef443-9943-4748-a605-850d954ea92d|81d9e506-7f8d-4e50-8e33-505f2b9f44ae",
           "geht nicht anders"
+        ],
+        [
+          "lib_footprint_mismatch|143542778|103921232|2536afbc-1006-45e6-b360-36565d58da5d|00000000-0000-0000-0000-000000000000",
+          "Hatte Marian irgendwie so gemacht..."
+        ],
+        [
+          "silk_edge_clearance|121000000|22525000|74c017a7-ca77-4465-8096-12e3fd7248cc|ca89224f-0003-4e14-ac08-f8f7c3dfc799",
+          "Kann ruhig überstehen"
+        ],
+        [
+          "silk_edge_clearance|121000000|48125000|74c017a7-ca77-4465-8096-12e3fd7248cc|6877506c-76e4-4f39-b59b-39c0baca6a49",
+          "Kann ruhig überstehen"
         ]
       ],
       "meta": {
@@ -864,6 +876,7 @@
         "power"
       ],
       "GND_float2": [
+        "analog",
         "power"
       ],
       "GNDµ": [
@@ -880,6 +893,9 @@
       ],
       "Net-(C2-Pad2)": [
         "power"
+      ],
+      "Net-(C27-Pad2)": [
+        "analog"
       ],
       "Net-(C6-Pad1)": [
         "power"
@@ -1128,6 +1144,10 @@
         "signal"
       ],
       "V_I_Bal": [
+        "analog",
+        "power"
+      ],
+      "V_Shunt_Low": [
         "analog",
         "power"
       ],

@@ -4090,7 +4090,7 @@
 			)
 		)
 	)
-	(global_label "G1"
+	(global_label "G4"
 		(shape input)
 		(at 72.39 52.07 180)
 		(fields_autoplaced yes)
@@ -4138,7 +4138,7 @@
 			)
 		)
 	)
-	(global_label "G1"
+	(global_label "G2"
 		(shape input)
 		(at 22.86 50.8 180)
 		(fields_autoplaced yes)
@@ -4234,7 +4234,7 @@
 			)
 		)
 	)
-	(global_label "G1"
+	(global_label "G3"
 		(shape input)
 		(at 72.39 25.4 180)
 		(fields_autoplaced yes)
@@ -4918,7 +4918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ea791c4-8353-4e04-b791-6cfaf3f312de")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG06"
 			(at 212.725 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4979,7 +4979,7 @@
 		(instances
 			(project "BM107_V6_Layout"
 				(path "/160d15a2-4a54-4a04-add2-ae6ecbb41248/4c1a8778-342d-4b78-bb3f-0bf650e43a5b"
-					(reference "#FLG04")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -6494,7 +6494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "968e9b1f-9f87-4276-82c9-8d89c6c18469")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 77.47 125.095 0)
 			(hide yes)
 			(show_name no)
@@ -6554,7 +6554,7 @@
 		(instances
 			(project "BM107_V6_Layout"
 				(path "/160d15a2-4a54-4a04-add2-ae6ecbb41248/4c1a8778-342d-4b78-bb3f-0bf650e43a5b"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)

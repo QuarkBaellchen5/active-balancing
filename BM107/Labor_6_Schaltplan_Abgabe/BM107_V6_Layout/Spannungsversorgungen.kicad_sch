@@ -6412,7 +6412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c01562f8-8c45-4371-adc8-a1c208997453")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 43.18 47.625 0)
 			(hide yes)
 			(show_name no)
@@ -6472,7 +6472,7 @@
 		(instances
 			(project "BM107_V6_Layout"
 				(path "/160d15a2-4a54-4a04-add2-ae6ecbb41248/8463f8d9-362d-470c-9375-50a154ac811d"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

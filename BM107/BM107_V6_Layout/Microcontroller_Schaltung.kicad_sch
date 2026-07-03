@@ -894,10 +894,10 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -5.08 -25.4 0)
 					(length 3.81)
-					(name "3.3"
+					(name "3.0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4336,7 +4336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 157.48 83.058 90)
 			(hide yes)
 			(show_name no)

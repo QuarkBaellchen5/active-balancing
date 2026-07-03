@@ -891,10 +891,10 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at -5.08 -25.4 0)
 				(length 3.81)
-				(name "3.3"
+				(name "3.0"
 					(effects
 						(font
 							(size 1.27 1.27)

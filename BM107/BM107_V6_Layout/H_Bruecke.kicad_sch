@@ -7163,7 +7163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "Aktive_Bal_Footprints:BSC016N06NS"
 			(at 45.72 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -8625,7 +8625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "Aktive_Bal_Footprints:BSC016N06NS"
 			(at 95.25 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -10069,7 +10069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "Aktive_Bal_Footprints:BSC016N06NS"
 			(at 95.25 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -10243,7 +10243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "Aktive_Bal_Footprints:BSC016N06NS"
 			(at 45.72 52.705 0)
 			(hide yes)
 			(show_name no)

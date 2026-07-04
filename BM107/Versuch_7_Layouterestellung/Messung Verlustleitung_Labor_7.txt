@@ -1,0 +1,11 @@
+Messung Verlustleitung
+Anlauf von 0 bis 500ms auf 2000 U/min.
+Belastung von 500ms bis 1s bei Nenndrehzahl mit 0,5Nm bei 2000 U/min.
+verlustleistung_m2_2_avg: AVG(abs(V(VMotor+)*Id(M2)+V(G2)*Ig(M2)))=2.10566175887 FROM 0.5 TO 1
+verlustleistung_m1_2_avg: AVG(abs(V(N020,VMotor+)*Id(M1)+V(G1,VMotor+)*Ig(M1)))=0.404424699811 FROM 0.5 TO 1
+verlustleistung_m2_1_avg: AVG(abs(V(VMotor+)*Id(M2)+V(G2)*Ig(M2)))=2.96445382772 FROM 0.01 TO 0.5
+verlustleistung_m1_1_avg: AVG(abs(V(N020,VMotor+)*Id(M1)+V(G1,VMotor+)*Ig(M1)))=1.17991394952 FROM 0.01 TO 0.5
+verlustleistung_m3_1_avg: AVG(abs(V(N020,Is+)*Id(M3)+V(G3,Is+)*Ig(M3)))=8.14121018919e-08 FROM 0.01 TO 0.5
+verlustleistung_m3_2_avg: AVG(abs(V(N020,Is+)*Id(M3)+V(G3,Is+)*Ig(M3)))=1.94978773534e-07 FROM 0.5 TO 1
+verlustleistung_m4_2_avg: AVG(abs(V(Is+)*Id(M5)+V(G4)*Ig(M5)))=0.123369324679 FROM 0.5 TO 1
+verlustleistung_m4_1_avg: AVG(abs(V(Is+)*Id(M5)+V(G4)*Ig(M5)))=0.792635520618 FROM 0.01 TO 0.5

@@ -2351,7 +2351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "402c929f-8925-4238-a375-e9a99a339f2c")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG01"
 			(at 142.24 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -2411,7 +2411,7 @@
 		(instances
 			(project "BM107_V6_Layout"
 				(path "/160d15a2-4a54-4a04-add2-ae6ecbb41248"
-					(reference "#FLG05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2518,7 +2518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57f6f160-b6d3-4802-93bb-51be98ab0528")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG02"
 			(at 142.24 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -2578,7 +2578,7 @@
 		(instances
 			(project "BM107_V6_Layout"
 				(path "/160d15a2-4a54-4a04-add2-ae6ecbb41248"
-					(reference "#FLG06")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

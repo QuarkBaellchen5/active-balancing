@@ -702,7 +702,7 @@
 			(uuid "c76cfd98-a456-4e42-9cb5-f432081e0a69")
 		)
 		(fp_text user "K"
-			(at 0 -2.1 90)
+			(at -0.4 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "769eba65-da61-439f-b5b6-4834dda13eb0")
 			(effects
@@ -2387,7 +2387,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.65 90)
+			(at 2.4125 -0.15 180)
 			(layer "F.SilkS")
 			(uuid "3094d4dd-aca7-43fc-9a2c-1672948421d6")
 			(effects
@@ -3238,7 +3238,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 2 0)
+			(at 3.3 0.05 0)
 			(layer "F.SilkS")
 			(uuid "28011749-1efa-4334-a624-e58574348867")
 			(effects
@@ -3396,7 +3396,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C27"
-			(at 0 -1.68 90)
+			(at 0.15 -1.5 90)
 			(layer "F.SilkS")
 			(uuid "61e15b7d-8da2-4af0-b0b9-8b244a0d3b28")
 			(effects
@@ -20046,7 +20046,7 @@
 		(descr "Power MOSFET package, TDSON-8-1, 5.15x5.9mm (https://www.infineon.com/cms/en/product/packages/PG-TDSON/PG-TDSON-8-1/)")
 		(tags "tdson ")
 		(property "Reference" "Q3"
-			(at 0 -3.5 90)
+			(at 1.25 -3.635 90)
 			(layer "F.SilkS")
 			(uuid "afd595fe-250f-415b-abe5-ddfcb389884c")
 			(effects
@@ -28003,6 +28003,37 @@
 		)
 	)
 	(zone
+		(layer "F.Cu")
+		(uuid "31256173-d1c1-4859-9680-8c91c077445d")
+		(name "tight_zone")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 76.2 89.4) (xy 80.805714 89.4) (xy 80.6 96.6) (xy 76.2 96.6)
+			)
+		)
+	)
+	(zone
 		(net "Net-(Q4-D)")
 		(layer "F.Cu")
 		(uuid "43be8a54-4158-4c5e-9c7e-fec1ce33a3f8")
@@ -28123,6 +28154,37 @@
 				(xy 45.532936 44.112668) (xy 45.532936 37.391829) (xy 45.537959 37.356893) (xy 45.542363 37.341895)
 				(xy 45.580108 37.283144) (xy 45.581477 37.281957) (xy 45.636356 37.254477) (xy 45.643915 37.252833)
 				(xy 45.670268 37.25) (xy 49.684238 37.25)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "7916ecc9-b8f9-4f57-811b-5b77090a61c4")
+		(name "tight_zone")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 78.8 108.2) (xy 83.405714 108.2) (xy 83.2 115.4) (xy 78.8 115.4)
 			)
 		)
 	)

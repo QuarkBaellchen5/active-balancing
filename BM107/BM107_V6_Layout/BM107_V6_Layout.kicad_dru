@@ -1,0 +1,5 @@
+(version 1)
+(rule "tight_clearance_area"
+    (condition "A.insideArea('tight_zone')")
+    (constraint clearance (min 0.25mm))
+)

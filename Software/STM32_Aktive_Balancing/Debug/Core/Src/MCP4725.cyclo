@@ -1,0 +1,6 @@
+../Core/Src/MCP4725.c:10:19:MCP4725_Initialize	1
+../Core/Src/MCP4725.c:22:19:MCP4725_SetMode	1
+../Core/Src/MCP4725.c:28:19:MCP4725_SetVoltage	1
+../Core/Src/MCP4725.c:34:19:MCP4725_GetDataFromChip	2
+../Core/Src/MCP4725.c:50:19:MCP4725_ReadData	1
+../Core/Src/MCP4725.c:54:19:MCP4725_WriteData	3

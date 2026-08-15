@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Aktive_Bal_Lib") (type "KiCad") (uri "${KIPRJMOD}/Aktive_Bal_Lib.kicad_sym") (options "") (descr ""))
+)

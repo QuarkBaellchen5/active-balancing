@@ -16,7 +16,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 5,
+        "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 1.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,16 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|121000000|22525000|74c017a7-ca77-4465-8096-12e3fd7248cc|ca89224f-0003-4e14-ac08-f8f7c3dfc799",
-          "Kann ruhig überstehen"
-        ],
-        [
-          "silk_edge_clearance|121000000|48125000|74c017a7-ca77-4465-8096-12e3fd7248cc|6877506c-76e4-4f39-b59b-39c0baca6a49",
-          "Kann ruhig überstehen"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -155,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -165,10 +156,10 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.64,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -220,12 +211,7 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.25,
-        0.5,
-        0.508,
-        1.0,
-        1.5
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -257,14 +243,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
-        },
-        {
-          "diameter": 1.2,
-          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -276,7 +254,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "5"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -502,7 +480,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -524,14 +502,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Aktive_Bal.kicad_pro",
+    "filename": "Adapterplatine.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -542,549 +520,18 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.4,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "analog",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.4,
-        "diff_pair_gap": 0.3,
-        "diff_pair_width": 0.4,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.25,
-        "tuning_profile": "",
-        "via_diameter": 1.2,
-        "via_drill": 0.6
-      },
-      {
-        "clearance": 0.3,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "+12V": [
-        "power"
-      ],
-      "+3.3V": [
-        "power"
-      ],
-      "+3.3Vµ": [
-        "power"
-      ],
-      "+5V": [
-        "power"
-      ],
-      "-5V": [
-        "power"
-      ],
-      "/B1": [
-        "signal"
-      ],
-      "/B10": [
-        "signal"
-      ],
-      "/B11": [
-        "signal"
-      ],
-      "/B12": [
-        "signal"
-      ],
-      "/B13": [
-        "signal"
-      ],
-      "/B14": [
-        "signal"
-      ],
-      "/B15": [
-        "signal"
-      ],
-      "/B16": [
-        "signal"
-      ],
-      "/B2": [
-        "signal"
-      ],
-      "/B3": [
-        "signal"
-      ],
-      "/B4": [
-        "signal"
-      ],
-      "/B5": [
-        "signal"
-      ],
-      "/B6": [
-        "signal"
-      ],
-      "/B7": [
-        "signal"
-      ],
-      "/B8": [
-        "signal"
-      ],
-      "/B9": [
-        "signal"
-      ],
-      "B1": [
-        "signal"
-      ],
-      "B10": [
-        "signal"
-      ],
-      "B11": [
-        "signal"
-      ],
-      "B12": [
-        "signal"
-      ],
-      "B13": [
-        "signal"
-      ],
-      "B14": [
-        "signal"
-      ],
-      "B15": [
-        "signal"
-      ],
-      "B16": [
-        "signal"
-      ],
-      "B2": [
-        "signal"
-      ],
-      "B3": [
-        "signal"
-      ],
-      "B4": [
-        "signal"
-      ],
-      "B5": [
-        "signal"
-      ],
-      "B6": [
-        "signal"
-      ],
-      "B7": [
-        "signal"
-      ],
-      "B8": [
-        "signal"
-      ],
-      "B9": [
-        "signal"
-      ],
-      "BAT+": [
-        "power"
-      ],
-      "Bal": [
-        "power"
-      ],
-      "Bat_GND": [
-        "power"
-      ],
-      "CANH": [
-        "signal"
-      ],
-      "CANL": [
-        "signal"
-      ],
-      "CRX": [
-        "signal"
-      ],
-      "CTX": [
-        "signal"
-      ],
-      "Cell0": [
-        "power"
-      ],
-      "Cell1": [
-        "power"
-      ],
-      "Cell10": [
-        "power"
-      ],
-      "Cell11": [
-        "power"
-      ],
-      "Cell12": [
-        "power"
-      ],
-      "Cell13": [
-        "power"
-      ],
-      "Cell14": [
-        "power"
-      ],
-      "Cell15": [
-        "power"
-      ],
-      "Cell16": [
-        "power"
-      ],
-      "Cell2": [
-        "power"
-      ],
-      "Cell3": [
-        "power"
-      ],
-      "Cell4": [
-        "power"
-      ],
-      "Cell5": [
-        "power"
-      ],
-      "Cell6": [
-        "power"
-      ],
-      "Cell7": [
-        "power"
-      ],
-      "Cell8": [
-        "power"
-      ],
-      "Cell9": [
-        "power"
-      ],
-      "D": [
-        "signal"
-      ],
-      "GND": [
-        "power"
-      ],
-      "GNDShunt": [
-        "analog",
-        "power"
-      ],
-      "GND_float2": [
-        "analog",
-        "power"
-      ],
-      "GNDµ": [
-        "power"
-      ],
-      "I_Bal": [
-        "analog"
-      ],
-      "I_Bal_Soll": [
-        "analog"
-      ],
-      "Net-(C2-Pad1)": [
-        "power"
-      ],
-      "Net-(C2-Pad2)": [
-        "power"
-      ],
-      "Net-(C27-Pad2)": [
-        "analog"
-      ],
-      "Net-(C6-Pad1)": [
-        "power"
-      ],
-      "Net-(C6-Pad2)": [
-        "power"
-      ],
-      "Net-(D1-K)": [
-        "power"
-      ],
-      "Net-(J1-Pin_1)": [
-        "power"
-      ],
-      "Net-(J16-Pin_1)": [
-        "power"
-      ],
-      "Net-(J16-Pin_2)": [
-        "power"
-      ],
-      "Net-(J2-GND)": [
-        "power"
-      ],
-      "Net-(J2-SHIELD)": [
-        "power"
-      ],
-      "Net-(J23-Pin_1)": [
-        "analog"
-      ],
-      "Net-(J4-Pin_1)": [
-        "power"
-      ],
-      "Net-(Q1-D)": [
-        "analog"
-      ],
-      "Net-(Q1-S)": [
-        "analog"
-      ],
-      "Net-(Q10_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q10_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q10_L1-S-Pad1)": [
-        "power"
-      ],
-      "Net-(Q11_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q11_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q12_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q12_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q13_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q13_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q14_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q14_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q15_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q15_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q16_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q16_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q1_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q1_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q2_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q2_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q3_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q3_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q4_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q4_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q5_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q5_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q6_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q6_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q7_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q7_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q8_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q8_L1-G)": [
-        "signal"
-      ],
-      "Net-(Q9_H1-G)": [
-        "signal"
-      ],
-      "Net-(Q9_L1-G)": [
-        "signal"
-      ],
-      "Net-(R28-Pad1)": [
-        "signal"
-      ],
-      "Net-(R29-Pad1)": [
-        "signal"
-      ],
-      "Net-(R30-Pad1)": [
-        "signal"
-      ],
-      "Net-(R31-Pad1)": [
-        "signal"
-      ],
-      "Net-(R32-Pad1)": [
-        "signal"
-      ],
-      "Net-(R33-Pad1)": [
-        "signal"
-      ],
-      "Net-(R34-Pad1)": [
-        "signal"
-      ],
-      "Net-(R35-Pad1)": [
-        "signal"
-      ],
-      "Net-(R36-Pad1)": [
-        "signal"
-      ],
-      "Net-(R37-Pad1)": [
-        "signal"
-      ],
-      "Net-(R38-Pad1)": [
-        "signal"
-      ],
-      "Net-(R39-Pad1)": [
-        "signal"
-      ],
-      "Net-(R40-Pad1)": [
-        "signal"
-      ],
-      "Net-(R41-Pad1)": [
-        "signal"
-      ],
-      "Net-(R42-Pad1)": [
-        "signal"
-      ],
-      "Net-(R43-Pad1)": [
-        "signal"
-      ],
-      "Net-(R96-Pad2)": [
-        "analog"
-      ],
-      "Net-(U1-D)": [
-        "power"
-      ],
-      "Net-(U13-D)": [
-        "power"
-      ],
-      "Net-(U14A-+)": [
-        "analog"
-      ],
-      "Net-(U14A--)": [
-        "analog"
-      ],
-      "Net-(U14B--)": [
-        "analog"
-      ],
-      "Net-(U14C-+)": [
-        "analog"
-      ],
-      "Net-(U14C--)": [
-        "analog"
-      ],
-      "Net-(U14D-+)": [
-        "analog"
-      ],
-      "Net-(U14D--)": [
-        "analog"
-      ],
-      "Net-(U15-VIN)": [
-        "power"
-      ],
-      "Net-(U5-EN)": [
-        "power"
-      ],
-      "Net-(U6-EN)": [
-        "power"
-      ],
-      "R": [
-        "signal"
-      ],
-      "RX": [
-        "signal"
-      ],
-      "SCL3.3": [
-        "signal"
-      ],
-      "SCL5": [
-        "signal"
-      ],
-      "SCLµC": [
-        "signal"
-      ],
-      "SDA3.3": [
-        "signal"
-      ],
-      "SDA5": [
-        "signal"
-      ],
-      "SDAµC": [
-        "signal"
-      ],
-      "TX": [
-        "signal"
-      ],
-      "V_I_Bal": [
-        "analog",
-        "power"
-      ],
-      "V_I_Bal_Ist": [
-        "analog"
-      ],
-      "V_I_Bal_Soll": [
-        "analog"
-      ],
-      "V_Shunt_High": [
-        "analog",
-        "power"
-      ],
-      "V_Shunt_Low": [
-        "analog",
-        "power"
-      ],
-      "unconnected-(U7-*INT-Pad1)": [
-        "signal"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -1165,68 +612,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Beschreibung",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referenz"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1264,30 +657,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Aktive_Bal.kicad_sch",
+        "filename": "Adapterplatine.kicad_sch",
         "name": "Stammblatt",
-        "uuid": "7c40c112-cd2b-4a48-9744-14a65613b3b5"
+        "uuid": "61378cbf-eb27-42cc-bc94-27d0813e863d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,J1",
     "variants": []
   },
   "sheets": [
     [
-      "7c40c112-cd2b-4a48-9744-14a65613b3b5",
+      "61378cbf-eb27-42cc-bc94-27d0813e863d",
       "Stammblatt"
-    ],
-    [
-      "45fa0e45-d26c-4c22-a735-03b29ef7d197",
-      "Leistungsmosfet"
-    ],
-    [
-      "7022d0de-596a-4fda-81a7-762d98787f96",
-      "Regelkreis"
-    ],
-    [
-      "5b8cdbf7-6c94-4219-a7d9-e8db0ed1ced2",
-      "Spannungsversorgung"
     ]
   ],
   "text_variables": {},

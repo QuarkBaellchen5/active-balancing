@@ -1,0 +1,4 @@
+../Core/Src/tca9555.c:12:30:TCA9555_WriteRegister	5
+../Core/Src/tca9555.c:45:23:TCA9555_Init	7
+../Core/Src/tca9555.c:92:23:TCA9555_SetOutput	7
+../Core/Src/tca9555.c:133:23:TCA9555_AllLow	4

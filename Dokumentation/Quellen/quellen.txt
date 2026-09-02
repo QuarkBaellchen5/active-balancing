@@ -1,0 +1,15 @@
+@book{bogatin2009signal,
+  author    = {Bogatin, Eric},
+  title     = {Signal and Power Integrity - Simplified},
+  publisher = {Prentice Hall},
+  year      = {2009},
+  edition   = {2nd}
+}
+
+@book{montrose2000printed,
+  author    = {Montrose, Mark I.},
+  title     = {Printed Circuit Board Design Techniques for EMC Compliance: A Handbook for Designers},
+  publisher = {IEEE Press / Wiley-Interscience},
+  year      = {2000},
+  edition   = {2nd}
+}

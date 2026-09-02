@@ -189,6 +189,18 @@ int main(void)
 	  {
 		 bal_flag = 1;
 
+		 if(V_I_Bal_Soll_neu != 0)
+
+		 {
+
+		 TCA9555_AllLow(&tca9555);
+
+		 MCP4725_SetVoltage(&mcp4725, 0, MCP4725_DAC_ONLY);
+
+		 HAL_Delay(1000);
+
+		 }
+
 		 V_I_Bal_Soll = V_I_Bal_Soll_neu;
 		 Zelle = Zelle_neu;
 

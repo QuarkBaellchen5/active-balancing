@@ -7789,7 +7789,7 @@
 			)
 		)
 		(property "Value" "RFP12N10L"
-			(at -2.04 52.6325 180)
+			(at 1.497222 1.882768 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "9195e519-520d-4fe9-a751-2df2f33b6187")

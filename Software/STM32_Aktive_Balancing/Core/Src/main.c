@@ -76,7 +76,7 @@ TCA9555_HandleTypeDef tca9555;
 uint8_t Zelle;
 uint8_t Zelle_neu;
 
-uint8_t bal_flag = 0;
+uint8_t pwr_on_flag = 0;
 uint8_t resend_flag = 0;
 
 
@@ -187,11 +187,17 @@ int main(void)
 
 	  if((V_I_Bal_Soll_neu != V_I_Bal_Soll)||(Zelle_neu != Zelle))       // neuen Wert einstellen
 	  {
-		 bal_flag = 1;
+
 
 		 if(V_I_Bal_Soll_neu != 0)
 
 		 {
+			 if(pwr_on_flag == 0)
+			 {
+				 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);     // Spannungsversorgung aktivieren
+				 pwr_on_flag = 1;
+				 HAL_Delay(1000);                                        // Einen Moment warten, bis alle Spannungen da sind
+			 }
 
 		 TCA9555_AllLow(&tca9555);
 
@@ -211,8 +217,12 @@ int main(void)
 
 		 if((V_I_Bal_Soll == 0) || (Zelle > 15))
 		 {
-			 bal_flag = 0;
 			 TCA9555_AllLow(&tca9555);
+
+			 HAL_Delay(1000);
+			 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+			 pwr_on_flag = 0;
+
 		 }
 
 		 else
@@ -226,7 +236,7 @@ int main(void)
 		 }
 	  }
 
-	  if(resend_flag && bal_flag)
+	  if(resend_flag && pwr_on_flag)
 	  {
 		  resend_flag = 0;
 		  MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);

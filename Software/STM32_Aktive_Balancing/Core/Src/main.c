@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include "MCP4725.h"               // DAC
 #include "pcf8575.h"
+#include "tca9555.h"
 
 /* USER CODE END Includes */
 
@@ -48,6 +49,9 @@ I2C_HandleTypeDef hi2c1;
 
 TIM_HandleTypeDef htim2;
 
+HAL_StatusTypeDef statusDAC;
+HAL_StatusTypeDef statusPort;
+
 /* USER CODE BEGIN PV */
 CAN_RxHeaderTypeDef rxHeader; 			//CAN Bus Receive Header
 CAN_TxHeaderTypeDef txHeader; 			//CAN Bus Transmit Header
@@ -57,17 +61,24 @@ uint32_t canMailbox;
 
 uint32_t V_I_Bal_Soll;                   // Angabe in 0.01V (Maximaler Strom 2A => V_I_Bal_Soll=200)
 uint32_t V_I_Bal_Soll_neu;
+uint32_t V_I_Bal_Soll_Start = 0.01;
 
 volatile uint32_t a = 0;
 volatile uint32_t canID;
-volatile uint32_t canByte1;
+//volatile uint32_t canByte1;
+//uint32_t canByte2;
 
 MCP4725_t mcp4725;                       // DAC-Objekt
 uint16_t DAC_digits;                     // 12-Bit Wert für Ausgang vom DAC => Vout = 3.3V * (DAC_digits/4095)
 
-PCF8575_HandleTypeDef pcf8575;
+
+TCA9555_HandleTypeDef tca9555;
 uint8_t Zelle;
 uint8_t Zelle_neu;
+
+uint8_t pwr_on_flag = 0;
+uint8_t resend_flag = 0;
+
 
 /* USER CODE END PV */
 
@@ -87,11 +98,16 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 {
     HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rxHeader, canRX);
 
-    //Damit man etwas sehen kann:
-    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+
 
     canID = rxHeader.StdId;
-    canByte1 = canRX[0];
+
+    if(canID==0x0F1)
+	{
+		V_I_Bal_Soll_neu = canRX[0];
+		Zelle_neu = canRX[1];
+	}
+
 
 }
 
@@ -145,8 +161,14 @@ int main(void)
   DAC_digits=(uint16_t)( ( (double)(0.0)/3.2 *4095 ));
   MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);
 
-  PCF8575_Init(&pcf8575, &hi2c1, 0x20);
-  PCF8575_Write(&pcf8575, 0b0000000000000000);
+
+  TCA9555_Init(&tca9555, &hi2c1, 0x20);
+  TCA9555_AllLow(&tca9555);
+
+  //TCA9555_SetOutput(&tca9555,15);
+
+
+
 
   /* USER CODE END 2 */
 
@@ -162,6 +184,218 @@ int main(void)
 	  //HAL_Delay(500);
 	  //DAC_digits=(uint16_t)( ((0.1)/3.2 *4095.0 ));
 	  //MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);
+
+	/*  if((V_I_Bal_Soll_neu != V_I_Bal_Soll)||(Zelle_neu != Zelle))       // neuen Wert einstellen
+	  {
+
+
+		 if(V_I_Bal_Soll_neu != 0)
+
+		 {
+			// if(pwr_on_flag == 0)
+			// {
+				// HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);     // Spannungsversorgung aktivieren
+				// pwr_on_flag = 1;
+				// HAL_Delay(1000);                                        // Einen Moment warten, bis alle Spannungen da sind
+
+
+
+			// }
+
+			 if (pwr_on_flag == 0)
+			 {
+			     // Schritt A: I2C-Peripherie stoppen UND Pins hochohmig schalten (Analog-Mode = Dioden inaktiv)
+			     HAL_I2C_DeInit(&hi2c1);
+
+			     GPIO_InitTypeDef GPIO_InitStruct = {0};
+			     GPIO_InitStruct.Pin = GPIO_PIN_6 | GPIO_PIN_7;
+			     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG; // Verhindert Parasitärstrom während des Einschaltens
+			     GPIO_InitStruct.Pull = GPIO_NOPULL;
+			     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+			     // Schritt B: Jetzt erst Spannung für die zweite Schaltung einschalten!
+			     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+			     pwr_on_flag = 1;
+			     HAL_Delay(100); // 100 ms reichen für stabile Spannung locker aus
+
+			     // Schritt C: Pins auf Open-Drain umkonfigurieren für Bus-Clear
+			     GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+			     GPIO_InitStruct.Pull = GPIO_PULLUP;
+			     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+			     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+			     // Beide Leitungen initial HIGH
+			     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6 | GPIO_PIN_7, GPIO_PIN_SET);
+			     HAL_Delay(1);
+
+			     // Schritt D: 9 Taktimpulse auf SCL (PB6) geben
+			     for (int i = 0; i < 9; i++)
+			     {
+			         HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET); // SCL LOW
+			         HAL_Delay(1);
+			         HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);   // SCL HIGH
+			         HAL_Delay(1);
+			     }
+
+			     // Stop-Bedingung erzeugen: SDA geht von LOW auf HIGH während SCL HIGH ist
+			     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET); // SDA LOW
+			     HAL_Delay(1);
+			     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);   // SDA HIGH
+			     HAL_Delay(1);
+
+			     // Schritt E: I2C-Peripherie-Reset & Neuinitialisierung
+			     __HAL_RCC_I2C1_FORCE_RESET();
+			     HAL_Delay(5);
+			     __HAL_RCC_I2C1_RELEASE_RESET();
+
+			     MX_I2C1_Init(); // Übernimmt Pins wieder als Alternate Function
+			     HAL_Delay(20);
+			 }
+
+		 TCA9555_AllLow(&tca9555);
+
+		 MCP4725_SetVoltage(&mcp4725, 0, MCP4725_DAC_ONLY);
+
+		 HAL_Delay(1000);
+
+		 }
+
+		 V_I_Bal_Soll = V_I_Bal_Soll_neu;
+		 Zelle = Zelle_neu;
+
+		 DAC_digits=(uint16_t)( ( (double)(V_I_Bal_Soll_Start/100.0)/3.29 *4095.0 ));
+		 MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);
+
+		 HAL_Delay(10);
+
+		 if((V_I_Bal_Soll == 0) || (Zelle > 15))
+		 {
+			 TCA9555_AllLow(&tca9555);
+
+			 HAL_Delay(1000);
+			 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+			 pwr_on_flag = 0;
+
+		 }
+
+		 else
+		 {
+			 TCA9555_SetOutput(&tca9555,Zelle);
+
+			 HAL_Delay(100);
+
+			 DAC_digits=(uint16_t)( ( (double)(V_I_Bal_Soll/100.0)/3.3 *4095.0 ));
+			 MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);                  // Sollstrom setzen
+		 }
+	  }
+
+	  if(resend_flag && pwr_on_flag)
+	  {
+		  resend_flag = 0;
+		  MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);
+		  TCA9555_SetOutput(&tca9555,Zelle);
+	  }
+*/
+
+	  /* USER CODE BEGIN 3 */
+	  if ((V_I_Bal_Soll_neu != V_I_Bal_Soll) || (Zelle_neu != Zelle))
+	  {
+	      if (V_I_Bal_Soll_neu != 0)
+	      {
+	          if (pwr_on_flag == 0)
+	          {
+	              // 1. I2C-Peripherie stoppen
+	              HAL_I2C_DeInit(&hi2c1);
+
+	              GPIO_InitTypeDef GPIO_InitStruct = {0};
+	              GPIO_InitStruct.Pin = GPIO_PIN_6 | GPIO_PIN_7;
+	              GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+	              GPIO_InitStruct.Pull = GPIO_NOPULL;
+	              HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+	              // 2. Spannung für die float Schaltung aktivieren
+	              HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+	              pwr_on_flag = 1;
+	              HAL_Delay(1000);
+
+	              // 3. Pins als Open-Drain für manuelle Bus-Clear Taktung schalten
+	              GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+	              GPIO_InitStruct.Pull = GPIO_PULLUP;
+	              GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+	              HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+	              HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6 | GPIO_PIN_7, GPIO_PIN_SET);
+	              HAL_Delay(1);
+
+	              // 4. 9 Clock-Pulse an SCL (PB6) senden
+	              for (int i = 0; i < 9; i++)
+	              {
+	                  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);
+	                  HAL_Delay(1);
+	                  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);
+	                  HAL_Delay(1);
+	              }
+
+	              // STOP-Bedingung erzeugen
+	              HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
+	              HAL_Delay(1);
+	              HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
+	              HAL_Delay(1);
+
+	              // 5. STM32 I2C-Hardware zurücksetzen und neu starten
+	              __HAL_RCC_I2C1_FORCE_RESET();
+	              HAL_Delay(5);
+	              __HAL_RCC_I2C1_RELEASE_RESET();
+
+	              MX_I2C1_Init();
+	              HAL_Delay(20);
+
+	              // Die beiden Slaves neu initialisieren
+	              MCP4725_Initialize(&mcp4725, &hi2c1, 0x60);
+	              TCA9555_Init(&tca9555, &hi2c1, 0x20);
+	          }
+
+	          TCA9555_AllLow(&tca9555);
+	          MCP4725_SetVoltage(&mcp4725, 0, MCP4725_DAC_ONLY);
+
+	          HAL_Delay(1000);
+	      }
+
+	      V_I_Bal_Soll = V_I_Bal_Soll_neu;
+	      Zelle = Zelle_neu;
+
+	      DAC_digits = (uint16_t)(((double)(V_I_Bal_Soll_Start / 100.0) / 3.29 * 4095.0));
+	      MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);
+
+	      HAL_Delay(10);
+
+	      if ((V_I_Bal_Soll == 0) || (Zelle > 15))
+	      {
+	          TCA9555_AllLow(&tca9555);
+
+	          HAL_Delay(1000);
+	          HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+	          pwr_on_flag = 0;
+	      }
+	      else
+	      {
+	          TCA9555_SetOutput(&tca9555, Zelle);
+
+	          HAL_Delay(100);
+
+	          DAC_digits = (uint16_t)(((double)(V_I_Bal_Soll / 100.0) / 3.3 * 4095.0));
+	          MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);
+	      }
+	  }
+
+	  if (resend_flag && pwr_on_flag)
+	  {
+	      resend_flag = 0;
+	      MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);
+	      TCA9555_SetOutput(&tca9555, Zelle);
+	  }
+
+
 
 
   }
@@ -316,10 +550,10 @@ static void MX_TIM2_Init(void)
 
   /* USER CODE END TIM2_Init 1 */
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 7199;
+  htim2.Init.Prescaler = 35999;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 999;
-  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.Period = 1999;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV2;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
   {
@@ -390,49 +624,18 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     if (htim->Instance == TIM2)
     {
-        //HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_3);
-    	//a++;
-    	switch(canID)
-    	{
-    	    case 0x0F1:
-    	        // Fall 1: Sollstrom setzen
-    	    	V_I_Bal_Soll_neu = canByte1;
-    	        break;
 
-    	    case 0x0F2:
-    	        // Fall 2: Port ansteuern
-    	    	Zelle_neu = canByte1;
-    	        break;
 
-    	    case 0x0F0:
-    	        // Fall 3: alles beenden
-    	    	V_I_Bal_Soll_neu = 0;    // nicht mehr balancen
-    	    	Zelle_neu = 0;           // Alle Outputs auf LOW schalten
-    	        break;
 
-    	    default:
-    	        // Code für alle anderen Fälle
-    	        break;
-    	}
+    	//Damit man etwas sehen kann:
+    	HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
 
-    	if(V_I_Bal_Soll_neu != V_I_Bal_Soll)
-    	{
-    		V_I_Bal_Soll = V_I_Bal_Soll_neu;
-    		DAC_digits=(uint16_t)( ( (double)(V_I_Bal_Soll/100.0)/3.3 *4095.0 ));
-    		MCP4725_SetVoltage(&mcp4725, DAC_digits, MCP4725_DAC_ONLY);
-    	}
-
-    	if(Zelle_neu != Zelle)
-    	{
-    		// Alle Outputs auf LOW schalten
-    		Zelle = Zelle_neu;
-    		// entsprechenden Port auf High setzen
-    		// wenn Zelle = 0, dann alle deaktivieren
-    	}
+    	resend_flag = 1;
 
 
     }
 }
+
 /* USER CODE END 4 */
 
 /**

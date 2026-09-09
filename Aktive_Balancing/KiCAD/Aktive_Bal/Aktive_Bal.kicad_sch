@@ -6979,7 +6979,7 @@
 	)
 	(text "connector \n"
 		(exclude_from_sim no)
-		(at 44.704 25.146 0)
+		(at 35.052 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)

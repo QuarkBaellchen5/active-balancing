@@ -7483,7 +7483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
 			(at 74.93 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
 			(at 154.94 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9498,7 +9498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
 			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)

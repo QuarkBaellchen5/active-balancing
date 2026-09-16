@@ -55219,8 +55219,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "00 01 \n"
-		(at 239.887 97.155 90)
+	(gr_text "NC 00 01 \n"
+		(at 239.887 101.554 90)
 		(layer "F.SilkS")
 		(uuid "e34bb180-4f0f-4557-a3fa-c5cf1993e4cb")
 		(effects

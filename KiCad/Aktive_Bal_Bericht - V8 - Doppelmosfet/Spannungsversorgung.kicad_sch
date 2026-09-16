@@ -6386,7 +6386,7 @@
 			(justify right bottom)
 		)
 		(uuid "00015daf-e45e-451f-afff-9449eea68831")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 68.0085 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6421,7 +6421,7 @@
 			(justify right bottom)
 		)
 		(uuid "0d93c8b7-b779-4c69-bba7-e2e945c19d01")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 93.4085 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6456,7 +6456,7 @@
 			(justify left bottom)
 		)
 		(uuid "32d49635-7418-4c10-8276-0e0fb04c037d")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 108.6485 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6491,7 +6491,7 @@
 			(justify left bottom)
 		)
 		(uuid "39093ced-71aa-42cc-9996-1239ed94d2f2")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 87.6935 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6526,7 @@
 			(justify left bottom)
 		)
 		(uuid "4afd1c8c-2c0f-4d90-92ff-4a3400b73a46")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 55.3085 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6561,7 +6561,7 @@
 			(justify left bottom)
 		)
 		(uuid "4d9ab6a8-ee82-4ce3-8093-bd3b69bd7f75")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 55.3085 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +6596,7 @@
 			(justify left bottom)
 		)
 		(uuid "994f3298-689c-4277-b68c-41c38f876bd7")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 150.5585 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6631,7 +6631,7 @@
 			(justify left bottom)
 		)
 		(uuid "a3b923ad-b45b-417e-855c-d20d0a5328ec")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 84.5185 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6666,7 +6666,7 @@
 			(justify left bottom)
 		)
 		(uuid "a5ccd688-cdf7-45d5-88b6-65474a0b01e1")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 40.0685 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6701,7 +6701,7 @@
 			(justify right bottom)
 		)
 		(uuid "e768122e-c823-4d9d-8aa9-9945136e9166")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 40.0685 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)

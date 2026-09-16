@@ -6587,7 +6587,7 @@
 			(justify left bottom)
 		)
 		(uuid "0116f1ff-9d21-400b-b8f7-f235d72e5cc2")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 38.7985 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6622,7 +6622,7 @@
 			(justify left bottom)
 		)
 		(uuid "09a12580-4494-41e6-9762-32f2d0aa2af5")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 214.63 65.3415 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +6656,7 @@
 			(justify left bottom)
 		)
 		(uuid "1c62c1a2-12f1-43a6-8f86-026fb1bba046")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 92.71 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6690,7 +6690,7 @@
 			(justify left bottom)
 		)
 		(uuid "26b5b2d7-8748-45dc-ad35-0170a89ba583")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 149.1615 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6724,7 +6724,7 @@
 			(justify right bottom)
 		)
 		(uuid "307a96ae-3f54-4323-9f25-281b481a631a")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 44.704 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,7 +6759,7 @@
 			(justify left bottom)
 		)
 		(uuid "363267a8-1374-468b-9c62-b922ddad948d")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 69.2785 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6794,7 +6794,7 @@
 			(justify left bottom)
 		)
 		(uuid "3c3ad52b-3a14-44a4-8be3-fe11b01310bc")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 88.3285 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6828,7 +6828,7 @@
 			(justify left bottom)
 		)
 		(uuid "527e845e-9eb8-4bfb-9622-a22763847bbe")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 122.936 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,7 +6862,7 @@
 			(justify right bottom)
 		)
 		(uuid "52e1adb8-93ef-4f13-b06e-3475b3a3b4f6")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 44.958 145.542 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6896,7 +6896,7 @@
 			(justify left bottom)
 		)
 		(uuid "5b420efb-a04d-4149-9fab-99c0914e290e")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 92.71 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,7 +6930,7 @@
 			(justify left bottom)
 		)
 		(uuid "60cab4e8-9ab0-42a9-8f6d-4c5502eed56c")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 149.606 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6965,7 +6965,7 @@
 			(justify left bottom)
 		)
 		(uuid "73d18d2d-778c-4a87-b941-61ce716e9f27")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 57.8485 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7000,7 +7000,7 @@
 			(justify left bottom)
 		)
 		(uuid "764a6c97-7b71-4e92-a000-1a93ac282ed8")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 153.0985 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +7035,7 @@
 			(justify left bottom)
 		)
 		(uuid "84bf2a38-2b3f-499d-94ac-d0c31c714e56")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 38.7985 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,7 +7069,7 @@
 			(justify left bottom)
 		)
 		(uuid "8a986835-37d4-4c3c-966a-5327af0edd3c")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 201.422 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7104,7 +7104,7 @@
 			(justify left bottom)
 		)
 		(uuid "a18248c7-be38-4efa-97bc-6a71fd658016")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 52.07 33.5915 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,7 +7139,7 @@
 			(justify left bottom)
 		)
 		(uuid "a95b4af6-dc88-466d-b0fc-62ea229bfa2b")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 184.8485 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,7 +7173,7 @@
 			(justify left bottom)
 		)
 		(uuid "aa17d29c-3ccb-4d65-94d3-90776285b8a1")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 153.162 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7208,7 +7208,7 @@
 			(justify left bottom)
 		)
 		(uuid "bc5c593e-39b9-4b98-825f-e779fbf774b3")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 52.7685 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,7 +7242,7 @@
 			(justify left bottom)
 		)
 		(uuid "ca6d00b5-907e-4f51-a59f-48ba6ed05f46")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 123.7615 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7276,7 +7276,7 @@
 			(justify left bottom)
 		)
 		(uuid "d109cceb-4328-43e7-b391-d8587a3467c6")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 108.5215 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7311,7 @@
 			(justify left bottom)
 		)
 		(uuid "e5e8aa65-d318-44c4-a1bc-18b72f342f4b")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 97.2185 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7346,7 @@
 			(justify left bottom)
 		)
 		(uuid "e5f20857-f1ef-4287-b199-a768d75456f4")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 134.0485 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,7 +7381,7 @@
 			(justify left bottom)
 		)
 		(uuid "f1459267-d94f-44f8-b23f-49b2587db6a8")
-		(property "Netzklasse" "analog"
+		(property "Netclass" "analog"
 			(at 111.1885 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7415,7 +7415,7 @@
 			(justify left bottom)
 		)
 		(uuid "feb791dd-c071-4b36-adac-829a4abb75ab")
-		(property "Netzklasse" "power"
+		(property "Netclass" "power"
 			(at 152.654 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
